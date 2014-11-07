@@ -1,0 +1,2 @@
+using "DejaVu Sans Mono-16", pixelsize=16.67 file=/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf
+ioctl VT_GETSTATE: Inappropriate ioctl for device (not a linux console?)
