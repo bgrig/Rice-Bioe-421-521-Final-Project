@@ -1,0 +1,149 @@
+##################
+Log: 2014/11/11 11:21:47
+/dev/ttyACM0
+baudrate: 115200
+
+G28 Z
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Oct 24 2014 17:26:35 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Oct 24 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+##################
+Log: 2014/11/11 11:23:59
+/dev/ttyACM0
+baudrate: 115200
+
+G28 Z
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Oct 24 2014 17:26:35 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Oct 24 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G0 Z80 F1000
+ok
+G0 Z60 F300
+ok
+##################
+Log: 2014/11/11 11:29:26
+/dev/ttyACM0
+baudrate: 115200
+
+##################
+Log: 2014/11/11 11:30:14
+/dev/ttyACM0
+baudrate: 115200
+
+echo:endstops hit:  Z:27.31
+echostart
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Oct 24 2014 17:26:35 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Oct 24 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G28 Z
+ok
+G0 Z80 F1000
+ok
+G0 Z60 F300
+ok
+##################
+Log: 2014/11/11 11:33:46
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Oct 24 2014 17:26:35 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Oct 24 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G28 Z
+G0 Z80 F1000
+G0 Z60 F300
+##################
+Log: 2014/11/11 11:34:36
+/dev/ttyACM0
+baudrate: 115200
+
+ok
+ok
+ok
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Oct 24 2014 17:26:35 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Oct 24 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G28 Z
+G0 Z80 F1000
+G0 Z60 F300
+G0 Z100 F500
+ok
+ok
+ok
+ok
+M114
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:85.05
+ok
+G90
+ok
+##################
+Log: 2014/11/11 11:38:03
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Oct 24 2014 17:26:35 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Oct 24 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G28 Z
+ok
+G0 Z80 F1000
+ok
+G0 Z60 F300
+ok
+G0 Z100 F500
+ok
+M114
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:89.97
+ok
+G90
+ok
+##################
+Log: 2014/11/11 11:45:59
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Oct 24 2014 17:26:35 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Oct 24 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G28 Z
+ok
+G0 Z80 F1000
+ok
+ok
+G0 Z60 F300
+ok
+G0 Z100 F500
+M114
+ok
+ok
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:60.01
+ok
+G90
+ok
