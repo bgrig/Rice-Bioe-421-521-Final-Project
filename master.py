@@ -106,7 +106,7 @@ def homeWait(zFinal, ser=rambo):
         zCurr = currXYZ.group(3)
         print("Current Z: " + str(zCurr))
         
-        if (float(zCurr) == float(zFinal)):
+        if ((float(zCurr) - float(zFinal))**2 < 0.01):
             global zCount
             zCount = ZHOME
             time.sleep(1)
@@ -165,7 +165,7 @@ def waitOnMove(line, ser=rambo):
         print("Current Z: " + str(zCurr))
         print("Destination Z: " + str(z_destination))
         
-        if (float(zCurr) == float(z_destination)):
+        if ((float(zCurr) - float(z_destination))**2 < 0.01):
             zCount = z_destination
             time.sleep(1)
             break
@@ -175,7 +175,7 @@ def gcodeLine(line, ser=rambo):
     print(line.strip())
 
     waitOnMove(line, ser)
-    clearBuffer(ser)
+    #clearBuffer(ser)
 
 def initBackground():
     os.system("sudo fbi -T 2 --noverbose ./Background/solid_black.jpg")
@@ -264,10 +264,10 @@ def main():
     initBackground()
 
 
-    #gcodeLine("G28 Z\n")
+    gcodeLine("G28 Z\n")
     #gcodeLine("G21\n")
-    #gcodeLine("G91\n")
-    #gcodeLine("G0 Z-10\n")
+    gcodeLine("G91\n")
+    gcodeLine("G0 Z-10\n")
 
     images = loadSlideshow("Testing")
     gcodeDict = loadGcode("0.3-0.5mm_holes_horizontal_short.gcode", ".")
@@ -278,7 +278,7 @@ def main():
     
         for i in range(1, len(gcode)):
             line = gcode[i]
-            #gcodeLine(line)
+            gcodeLine(line)
     
         imageName = images[slice]
         seconds = int(delay) / 1000
