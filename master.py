@@ -131,11 +131,16 @@ def gcodeLine(line, ser=rambo):
     waitOnMove(line, ser)
     clearBuffer(ser)
 
+def displayImage(imageName, seconds):
+    bashCommand = "sudo fbi -T 3 --noverbose --once -t {0} ./Testing/{1}".format(seconds, imageName)
+    os.system(bashCommand)
+    #time.sleep(seconds+3)
 
 
-os.system("sudo fbi -T --noverbose 2 ./Testing/cylinder_10mm0001.png")
+os.system("sudo fbi -T 2 --noverbose ./Slideshow/solid_black.jpg")
 time.sleep(5)
-os.system("sudo fbi -T 2 ./Testing/cylinder_10mm0020.png")
+#displayImage("cylinder_10mm0001.png", 5)
+os.system("sudo kill $(pgrep fbi)")
 
 #Print Test Gcode
 #gcodeLine("G28 Z\n")
