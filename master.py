@@ -5,6 +5,7 @@ import os
 import sys
 import time
 import re
+import glob
 
 #Output stdout to log file
 #sys.stdout = open("log.txt", "a")
@@ -13,10 +14,13 @@ import re
 port = "/dev/ttyACM0"
 baud = 115200
 
+#counts
+zCount = 0
+
 #Regular Expression Compilation
-xRE = re.compile(" X([0-9]+)?\.?[0-9]* ")
-yRE = re.compile(" Y([0-9]+)?\.?[0-9]* ")
-zRE = re.compile(" Z([0-9]+)?\.?[0-9]* ")  
+xRE = re.compile(" X(-?[0-9]+)[.]?[0-9]*")
+yRE = re.compile(" Y(-?[0-9]+)[.]?[0-9]*")
+zRE = re.compile(" Z(-?[0-9]+)[.]?[0-9]*")  
 
 M114 = re.compile("Count X: ([0-9]+)\.[0-9]+Y:([0-9]+)\.[0-9]+Z:([0-9]+)\.[0-9]+")
 Gmove = re.compile("^G[0-1]{1}|28")
@@ -71,8 +75,45 @@ def clearBuffer(ser):
         else:
             timer += 1
 
-#Definitions
-def waitOnMove(line, ser):
+def homeWait(zFinal, ser=rambo):
+    print("Z coordinate: " + str(zFinal))
+    time.sleep(1)
+    while True:
+        currPosition = ''
+
+        ser.write("M114\n")
+        timer = 0
+        while True:
+            response = ser.read(1000)
+            response.strip()
+            print("timer: " + str(timer))       
+
+            if response != '':
+                currPosition = currPosition + response
+                print("Current position: " + currPosition)
+                timer = 0
+            elif timer == wait:
+                break
+            else:
+                timer += 1
+        if len(currPosition) < 2:
+            print("Current Position not found")
+            continue
+
+        currXYZ = M114.search(currPosition)
+        print(currPosition)
+
+        zCurr = currXYZ.group(3)
+        print("Current Z: " + str(zCurr))
+        
+        if (int(zCurr) == int(zFinal)):
+            global zCount
+            zCount = ZHOME
+            time.sleep(1)
+            break
+
+def waitOnMove(line, ser=rambo):
+    global zCount
     print("waitOnMove Line: " + line.strip())
     MoveCheck = isMove(line)
 
@@ -82,7 +123,8 @@ def waitOnMove(line, ser):
     print("Is a move")
     
     if re.search("G28", line):
-        z_destination = ZHOME
+        homeWait(ZHOME)
+        return
     else:
         #x_destination = xRE.search(line)
         #y_destination = yRE.search(line)
@@ -90,6 +132,7 @@ def waitOnMove(line, ser):
         z_destination = z_search.group(1)
     
     print("Z coordinate: " + str(z_destination))
+    z_destination = float(z_destination) + zCount
     
     time.sleep(1)
     while True:
@@ -117,10 +160,12 @@ def waitOnMove(line, ser):
         currXYZ = M114.search(currPosition)
         print(currPosition)
 
-        zCount = currXYZ.group(3)
-        print("Count: " + str(zCount))
+        zCurr = currXYZ.group(3)
+        print("Current Z: " + str(zCurr))
+        print("Destination Z: " + str(z_destination))
         
-        if (int(zCount) == int(z_destination)):
+        if (int(zCurr) == int(z_destination)):
+            zCount = z_destination
             time.sleep(1)
             break
 
@@ -131,16 +176,116 @@ def gcodeLine(line, ser=rambo):
     waitOnMove(line, ser)
     clearBuffer(ser)
 
+def initBackground():
+    os.system("sudo fbi -T 2 --noverbose ./Background/solid_black.jpg")
+    time.sleep(5)
+    return
+
 def displayImage(imageName, seconds):
     bashCommand = "sudo fbi -T 3 --noverbose --once -t {0} ./Testing/{1}".format(seconds, imageName)
     os.system(bashCommand)
-    #time.sleep(seconds+3)
+    time.sleep(seconds+3)
+
+def exitFBI():
+    os.system("sudo kill $(pgrep fbi)")
+
+def loadSlideshow(dir,ext="png"):
+    pathname = "./{0}/*.{1}".format(dir, ext)
+    images = glob.glob(pathname)
+    images.sort()
+    return images
+
+def parseHeader(f):
+    header = []
+    for line in f:
+        if re.search("Header End", line):
+            break
+        header.append(line)
+    return header
+
+def parseGcode(f):
+    gcodeDict = {}
+    slice = -1
+    sliceGcode = []
+    delay = -1
+
+    for line in f:      
+
+        if re.search(";<Slice> [0-9]+", line):
+            match = re.search("([0-9]+)", line)
+            slice = match.group(1)
+            #print("Slice: " + slice)
+        elif delay != -1 and re.search(";<Delay>", line):
+            continue
+        elif slice != -1 and re.search(";<Delay> [0-9]+", line):
+            match = re.search("([0-9]+)", line)
+            delay = match.group(1)
+            #print("Delay: " + delay)
+            sliceGcode.append(delay)
+        elif delay != -1 and re.search("[GM][0-9]+", line):
+            #print("Gcode: " + line)
+            match = re.search("([GM][0-9]+.+\n)", line)
+            gcode = match.group(1)
+            sliceGcode.append(gcode)
+        elif delay != -1 and re.search("Pre.{1}Slice End", line):
+            #print("\n")
+            gcodeDict[slice] = sliceGcode
+            slice = -1
+            delay = -1
+            sliceGcode = []
+    
+    for key in gcodeDict:
+        gcode = gcodeDict[key]
+
+        for i in range(0,len(gcode)):
+            line = gcode[i]
+            line = re.sub("^;", "", line, count=1)
+            gcode[i] = line
+        
+        gcodeDict[key] = gcode
+
+    
+    return gcodeDict
+        
+
+def loadGcode(filename, dir="Gcode"):
+    pathname = "./{0}/{1}".format(dir, filename)
+    f = open(pathname, "r")
+    
+    #parse GCODE
+    header = parseHeader(f)
+    gcode = parseGcode(f)
+    
+    return gcode
+        
+
+initBackground()
 
 
-os.system("sudo fbi -T 2 --noverbose ./Slideshow/solid_black.jpg")
-time.sleep(5)
-#displayImage("cylinder_10mm0001.png", 5)
-os.system("sudo kill $(pgrep fbi)")
+gcodeLine("G28 Z\n")
+#gcodeLine("G21\n")
+gcodeLine("G91\n")
+gcodeLine("G0 Z-20\n")
+
+images = loadSlideshow("Testing")
+gcodeDict = loadGcode("0.3-0.5mm_holes_horizontal_short.gcode", ".")
+
+for slice in range(0,len(gcodeDict)):
+    gcode = gcodeDict[str(slice)]
+    delay = gcode[0]
+    
+    for i in range(1, len(gcode)):
+        line = gcode[i]
+        gcodeLine(line)
+    
+    imageName = images[slice]
+    seconds = int(delay) / 1000.0
+    displayImage(imageName, seconds)
+    
+    
+
+
+
 
 #Print Test Gcode
 #gcodeLine("G28 Z\n")
