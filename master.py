@@ -19,12 +19,14 @@ yRE = re.compile(" Y([0-9]+)?\.?[0-9]* ")
 zRE = re.compile(" Z([0-9]+)?\.?[0-9]* ")  
 
 M114 = re.compile("Count X: ([0-9]+)\.[0-9]+Y:([0-9]+)\.[0-9]+Z:([0-9]+)\.[0-9]+")
-
-Gmove = re.compile("^G[0-1]{1}")
+Gmove = re.compile("^G[0-1]{1}|28")
 
 #Timeout length
 serTimeout = 1 #timeout for serial communication
-wait = 3 #seconds to wait before releasing hold on rambo communications
+wait = 1 #seconds to wait before releasing hold on rambo communications
+
+# Z home coordinate
+ZHOME = 105
 
 #Initialize Log information
 print("##################")
@@ -57,21 +59,39 @@ def isMove(line):
     else:
         return False
 
+def clearBuffer(ser):
+    timer = 0
+    while True:
+        response = ser.read(1000)
+        
+        if response:
+            continue
+        elif timer == 1:
+            break
+        else:
+            timer += 1
+
 #Definitions
 def waitOnMove(line, ser):
+    print("waitOnMove Line: " + line.strip())
     MoveCheck = isMove(line)
 
     if not MoveCheck:
         print("Not a move")
         return
     print("Is a move")
- 
-    #x_destination = xRE.search(line)
-    #y_destination = yRE.search(line)
-    z_destination = zRE.search(line)
     
-    print("Z coordinate: " + z_destination.group(1))
-
+    if re.search("G28", line):
+        z_destination = ZHOME
+    else:
+        #x_destination = xRE.search(line)
+        #y_destination = yRE.search(line)
+        z_search = zRE.search(line)
+        z_destination = z_search.group(1)
+    
+    print("Z coordinate: " + str(z_destination))
+    
+    time.sleep(1)
     while True:
         currPosition = ''
 
@@ -90,15 +110,18 @@ def waitOnMove(line, ser):
                 break
             else:
                 timer += 1
-        print("Response: " + str(response))
+        if len(currPosition) < 2:
+            print("Current Position not found")
+            continues
+
         currXYZ = M114.search(currPosition)
         print(currPosition)
 
-        print("Count: " + str(currXYZ.group(3)))
+        zCount = currXYZ.group(3)
+        print("Count: " + str(zCount))
         
-        #CurrXYZ.group(1) == x_current and currXYZ.group(2) == y_current and currXYZ.group(3) == z_current
-        if (int(currXYZ.group(3)) == int(z_destination)):
-            time.delay(1)
+        if (int(zCount) == int(z_destination)):
+            time.sleep(1)
             break
 
 def gcodeLine(line, ser=rambo):
@@ -106,32 +129,19 @@ def gcodeLine(line, ser=rambo):
     print(line.strip())
 
     waitOnMove(line, ser)
-
-    #timer = 0
-    #while True:
-        #response = ser.read(10000)
-        
-        #if response == 'ok\n':
-            #print(response.strip())
-
-            #break
-        #elif response != '':
-        #    timer = 0    
-        #    print(response.strip())
-        #else:
-        #    timer += 1
-
-        #if timer == wait:
-        #   break
+    clearBuffer(ser)
 
 
-#os.system("sudo fbi -T 2 ./Testing/cylinder_10mm0001.png")
+
+os.system("sudo fbi -T --noverbose 2 ./Testing/cylinder_10mm0001.png")
+time.sleep(5)
+os.system("sudo fbi -T 2 ./Testing/cylinder_10mm0020.png")
 
 #Print Test Gcode
-gcodeLine("G28 Z\n")
-gcodeLine("G0 Z80 F1000\n")
-gcodeLine("G0 Z60 F300\n")
-gcodeLine("G0 Z100 F500\n")
+#gcodeLine("G28 Z\n")
+#gcodeLine("G0 Z80 F1000\n")
+#gcodeLine("G0 Z60 F300\n")
+#gcodeLine("G0 Z100 F500\n")
 
 
 #Close rambo serial communications
