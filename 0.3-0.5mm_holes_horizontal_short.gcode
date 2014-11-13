@@ -39,19 +39,19 @@ M17 ;Enable motors
 ;Set up any GCode here to be executed before a lift
 ;********** Pre-Slice End **********
 ;<Slice> 0 
-;<Delay> 300000 
+;<Delay> 5000
 ;<Slice> Blank 
 ;********** Lift Sequence ********
 G4 P5000;
 G1 Z8.0 F100.0
 G1 Z-7.95 F100.0
-;<Delay> 54300
+;<Delay> 54000
 ;********** Lift Sequence **********
 ;********** Pre-Slice Start ********
 ;Set up any GCode here to be executed before a lift
 ;********** Pre-Slice End **********
 ;<Slice> 1 
-;<Delay> 300000 
+;<Delay> 5000
 ;<Slice> Blank 
 ;********** Lift Sequence ********
 G4 P5000;
@@ -63,7 +63,7 @@ G1 Z-7.95 F100.0
 ;Set up any GCode here to be executed before a lift
 ;********** Pre-Slice End **********
 ;<Slice> 2 
-;<Delay> 300000 
+;<Delay> 5000
 ;<Slice> Blank 
 ;********** Lift Sequence ********
 G4 P5000;
@@ -75,7 +75,7 @@ G1 Z-7.95 F100.0
 ;Set up any GCode here to be executed before a lift
 ;********** Pre-Slice End **********
 ;<Slice> 3 
-;<Delay> 150000 
+;<Delay> 5000
 ;<Slice> Blank 
 ;********** Lift Sequence ********
 G4 P5000;

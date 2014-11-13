@@ -18,11 +18,11 @@ baud = 115200
 zCount = 0
 
 #Regular Expression Compilation
-xRE = re.compile(" X(-?[0-9]+)[.]?[0-9]*")
-yRE = re.compile(" Y(-?[0-9]+)[.]?[0-9]*")
-zRE = re.compile(" Z(-?[0-9]+)[.]?[0-9]*")  
+xRE = re.compile(" X(-?[0-9]+[.]?[0-9]*)")
+yRE = re.compile(" Y(-?[0-9]+[.]?[0-9]*)")
+zRE = re.compile(" Z(-?[0-9]+[.]?[0-9]*)")  
 
-M114 = re.compile("Count X: ([0-9]+)\.[0-9]+Y:([0-9]+)\.[0-9]+Z:([0-9]+)\.[0-9]+")
+M114 = re.compile("Count X: ([0-9]+[.]?[0-9]*)Y:([0-9]+[.]?[0-9]*)Z:([0-9]+[.]?[0-9]*)")
 Gmove = re.compile("^G[0-1]{1}|28")
 
 #Timeout length
@@ -106,7 +106,7 @@ def homeWait(zFinal, ser=rambo):
         zCurr = currXYZ.group(3)
         print("Current Z: " + str(zCurr))
         
-        if (int(zCurr) == int(zFinal)):
+        if (float(zCurr) == float(zFinal)):
             global zCount
             zCount = ZHOME
             time.sleep(1)
@@ -131,8 +131,9 @@ def waitOnMove(line, ser=rambo):
         z_search = zRE.search(line)
         z_destination = z_search.group(1)
     
-    print("Z coordinate: " + str(z_destination))
-    z_destination = float(z_destination) + zCount
+    print(line)
+    print("Z coordinate: " + str(float(z_destination)))
+    z_destination = float(z_destination) + float(zCount)
     
     time.sleep(1)
     while True:
@@ -164,7 +165,7 @@ def waitOnMove(line, ser=rambo):
         print("Current Z: " + str(zCurr))
         print("Destination Z: " + str(z_destination))
         
-        if (int(zCurr) == int(z_destination)):
+        if (float(zCurr) == float(z_destination)):
             zCount = z_destination
             time.sleep(1)
             break
@@ -182,7 +183,7 @@ def initBackground():
     return
 
 def displayImage(imageName, seconds):
-    bashCommand = "sudo fbi -T 3 --noverbose --once -t {0} ./Testing/{1}".format(seconds, imageName)
+    bashCommand = "sudo fbi -T 2 --noverbose --once -t {0} {1}".format(seconds, imageName)
     os.system(bashCommand)
     time.sleep(seconds+3)
 
@@ -225,8 +226,9 @@ def parseGcode(f):
         elif delay != -1 and re.search("[GM][0-9]+", line):
             #print("Gcode: " + line)
             match = re.search("([GM][0-9]+.+\n)", line)
-            gcode = match.group(1)
-            sliceGcode.append(gcode)
+            if re.search("G[0-1]{1} ", line):
+                gcode = match.group(1)
+                sliceGcode.append(gcode)
         elif delay != -1 and re.search("Pre.{1}Slice End", line):
             #print("\n")
             gcodeDict[slice] = sliceGcode
@@ -257,43 +259,47 @@ def loadGcode(filename, dir="Gcode"):
     gcode = parseGcode(f)
     
     return gcode
-        
 
-initBackground()
+def main():  
+    initBackground()
 
 
-gcodeLine("G28 Z\n")
-#gcodeLine("G21\n")
-gcodeLine("G91\n")
-gcodeLine("G0 Z-20\n")
+    #gcodeLine("G28 Z\n")
+    #gcodeLine("G21\n")
+    #gcodeLine("G91\n")
+    #gcodeLine("G0 Z-10\n")
 
-images = loadSlideshow("Testing")
-gcodeDict = loadGcode("0.3-0.5mm_holes_horizontal_short.gcode", ".")
+    images = loadSlideshow("Testing")
+    gcodeDict = loadGcode("0.3-0.5mm_holes_horizontal_short.gcode", ".")
 
-for slice in range(0,len(gcodeDict)):
-    gcode = gcodeDict[str(slice)]
-    delay = gcode[0]
+    for slice in range(0,len(gcodeDict)):
+        gcode = gcodeDict[str(slice)]
+        delay = gcode[0]
     
-    for i in range(1, len(gcode)):
-        line = gcode[i]
-        gcodeLine(line)
+        for i in range(1, len(gcode)):
+            line = gcode[i]
+            #gcodeLine(line)
     
-    imageName = images[slice]
-    seconds = int(delay) / 1000.0
-    displayImage(imageName, seconds)
+        imageName = images[slice]
+        seconds = int(delay) / 1000
+        displayImage(imageName, seconds)
+
+
+    #Close rambo serial communications
+    rambo.close()
+
+def main2():
     
+    images = loadSlideshow("Testing")
+    for image in images:
+        initBackground()
+        displayImage(imageName, 5)
     
 
+main()
+
+if '__name__' == '__main__':
+    main()
 
 
-
-#Print Test Gcode
-#gcodeLine("G28 Z\n")
-#gcodeLine("G0 Z80 F1000\n")
-#gcodeLine("G0 Z60 F300\n")
-#gcodeLine("G0 Z100 F500\n")
-
-
-#Close rambo serial communications
-rambo.close()
 
