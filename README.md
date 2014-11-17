@@ -91,8 +91,11 @@ To SSH into the Pi and controle it via terminal:
 
 To VNC into the Pi and control it via the GUI:
 1. In LogMeIn Hamachi, right click on the Pi and "Copy Address".
+
 2. Open "TightVNC Viewer" on the PC and paste the copied address in the "Remote Host" box with a ":1" at the end (without quotation marks). 
+
 3. Press "Connect" and enter in the network password.
+
 4. You can now control the Pi through the GUI.
 
 ## Extra features
