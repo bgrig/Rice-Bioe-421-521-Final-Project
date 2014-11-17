@@ -54,10 +54,12 @@ To VPN into the Pi, LogMeIn Hamachi will need to be installed on both the Pi and
 ```
 sudo apt-get update && sudo apt-get upgrade
 ```
+
 2.  Install lsb-core package:
 ```
 sudo apt-get install lsb-core
 ```
+
 3. Download the LogMeIn Hamachi client and install the package:
 ```
 sudo wget https://secure.logmein.com/labs/logmein-hamachi-2.1.0.130-armel.tgz
