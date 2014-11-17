@@ -84,6 +84,7 @@ hamachi set-nick [Nickname]
 
 ### SSH or VNC into the Pi
 To SSH into the Pi and controle it via terminal:
+
 1. In LogMeIn Hamachi, right click on the Pi and "Copy Address".
 2. Open "PuTTY" on the PC and paste the copied address in the "Session" box.
 3. Press "Open". You may get a prompt to accept the certification.
