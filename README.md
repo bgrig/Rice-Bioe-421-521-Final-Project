@@ -68,6 +68,7 @@ cd logmein-hamachi-2.1.0.130-armel
 sudo ./install.sh
 ```
 Note: As of 11/16/2014, v2.1.0.130 is the latest version. To get the latest version, go to the [Labs](https://secure.logmein.com/US/labs/#HamachiforLinux) portion of the LogMeIn website. 
+
 4. Start the client and login:
 ```
 sudo /etc/init.d/logmein-hamachi start
@@ -91,6 +92,7 @@ To SSH into the Pi and controle it via terminal:
 4. You can now control the Pi through the terminal.
 
 To VNC into the Pi and control it via the GUI:
+
 1. In LogMeIn Hamachi, right click on the Pi and "Copy Address".
 2. Open "TightVNC Viewer" on the PC and paste the copied address in the "Remote Host" box with a ":1" at the end (without quotation marks). 
 3. Press "Connect" and enter in the network password.
