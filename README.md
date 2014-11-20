@@ -127,6 +127,6 @@ UseSTARTTLS=YES
 
 To send an email from the Pi using Python, [code from http://kutuma.blogspot.com/](http://kutuma.blogspot.com/2007/08/sending-emails-via-gmail-with-python.html) was implemented into the script.
 
-### Deposit material
+## Deposit material
 Enable X or Y motor
 
