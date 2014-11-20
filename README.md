@@ -104,22 +104,31 @@ To VNC into the Pi and control it via the GUI:
 * Error handling
 
 
-### Take pictures during print
-Using RaspiCam, images of the printing process can be taken for checking print fidelity and making movies of the printing process. The RaspiCam documentation is available in github. A raspistill command will be implemented in the master script (in the initBackground definition) to take a photo and save it with the date and time in the filename in a specific destination (*would be cool to send each img via email during printing* :
+## Take pictures during print and email progress
+Using RaspiCam, images of the printing process can be taken for checking print fidelity and making movies of the printing process. The RaspiCam documentation is available in github.
+
+### Configuring email settings
+To send an email of the print images taken during printing, ``` ssmtp `` and `` mailutils `` packages will need to be installed and a gmail account will need to be configured as a smarthost:
 
 ```
-DATE=$(date +"%Y-%m-%d_%H%M")
-filename = "filename$DATA"
-
-raspistill -o /home/pi/camera/filename.jpg
-
+sudo apt-get install ssmtp mailutils
 ```
 
-### Send log and images to gmail
-To send a gmail of the print log and images taken during printing, ``` ssmpt `` will need to be installed and a gmail account will need to be configured as a smarthost.
+Edit the ``ssmtp.conf`` by using ``sudo nano /etc/ssmtp/ssmtp.conf`` and change:
 
-http://www.raspberrypi.org/forums/viewtopic.php?f=36&t=32077
-http://harizanov.com/2013/07/raspberry-pi-emalsms-doorbell-notifier-picture-of-the-person-ringing-it/
+``mailhub`` to: ``mailhub=smtp.gmail.com:587``
+
+Below hostname, add the following code and change AuthUser and AuthPass:
+
+```
+AuthUser=SENDEREMAIL@gmail.com
+AuthPass=SENDERPASS
+FromLineOverride=YES
+mailhub=smtp.gmail.com:587
+UseSTARTTLS=YES
+```
+
+To send an email from the Pi using Python, [code](http://kutuma.blogspot.com/2007/08/sending-emails-via-gmail-with-python.html)
 
 ### Deposit material
 Enable X or Y motor
