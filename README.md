@@ -108,7 +108,7 @@ To VNC into the Pi and control it via the GUI:
 Using RaspiCam, images of the printing process can be taken for checking print fidelity and making movies of the printing process. The RaspiCam documentation is available in github.
 
 ### Configuring email settings
-To send an email of the print images taken during printing, ``` ssmtp `` and `` mailutils `` packages will need to be installed and a gmail account will need to be configured as a smarthost:
+To send an email of the print images taken during printing, `` ssmtp `` and `` mailutils `` packages will need to be installed and a gmail account will need to be configured as a smarthost:
 
 ```
 sudo apt-get install ssmtp mailutils
@@ -133,4 +133,3 @@ To send an email from the Pi using Python, [code](http://kutuma.blogspot.com/200
 ### Deposit material
 Enable X or Y motor
 
-### Capacitive sensing for Z0
