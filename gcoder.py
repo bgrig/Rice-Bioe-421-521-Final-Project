@@ -4,10 +4,10 @@ import serial
 import re
 import time
 
-from portComm import comm
+import portComm
 
 class gcode():
-	def __init__(self, filename='', commCl=comm()):
+	def __init__(self, filename='', commCl=''):
 		self.comm = commCl
 		self.zCount = 0
 		self.zCurrent = 0
@@ -22,7 +22,7 @@ class gcode():
 		
 		self.loadGcode(dir=".")
 		
-		self._prepare():
+		#self._prepare()
 
 
 
@@ -44,7 +44,8 @@ class gcode():
 		MoveCheck = self.isMove(line)
 
 		if not MoveCheck:
-			print("Not a move") and return
+			print("Not a move")
+			return
 		else:
 			print("Is a move")
 		

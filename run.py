@@ -7,9 +7,10 @@ import time
 import re
 import glob
 
-from portComm import Comm
-from slides import slide
-#from gcoder import gcode
+import portComm
+import slides
+#import gcoder
+
 
 #Output stdout to log file
 #sys.stdout = open("log.txt", "a")
@@ -29,11 +30,13 @@ def main():
 	print(port)
 	print("baudrate: " + str(baud) + "\n")
 	
-	rambo = Comm(port=port, baud=baud, device='RAMBO')
+	rambo = portComm.Comm(port=port, baud=baud, device='RAMBO')
 	
-	slideshow = slide()
-	slideshow.displayImage()
-	slideshow.exit()	
+	#slideshow = slide()
+	#slideshow.displayImage()
+	#slideshow.exit()
+	
+	#gco = gcode(filename="0.3-0.5mm_holes_horizontal_short.gcode", commCl=rambo)
 
 
     	#gcodeLine("G28 Z\n")

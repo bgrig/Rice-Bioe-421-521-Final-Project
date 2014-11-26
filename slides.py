@@ -6,7 +6,7 @@ import glob
 
 
 class slide():
-	def __init__(self, slideTime=30):
+	def __init__(self, slideTime=3):
 		self.imageNames = []
 		self.slideTime = slideTime
 		self.slice = 0

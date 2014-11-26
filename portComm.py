@@ -1,6 +1,7 @@
 #! /usr/bin/python
 
 import serial
+import time
 
 class Comm():
 	def __init__(self, port='/dev/ttyACM0', baud=115200, device='RAMBO'):
@@ -24,6 +25,7 @@ class Comm():
 		rambo = self.ser
 		rambo.open()
 		
+		time.sleep(1)
 		response = ''
 		text = ''
 		while True:
