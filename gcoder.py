@@ -22,15 +22,14 @@ class gcode():
 		
 		self.loadGcode(dir=".")
 		
-		#self._prepare()
+		self._prepare()
 
 
 
 	def _prepare(self):
 		self.gcodeLine("G28 Z\n")
-		##self.gcodeLine("G21\n")
-		#self.gcodeLine("G91\n")
-		#self.gcodeLine("G0 Z-10\n")
+		self.gcodeLine("G91\n")
+		self.gcodeLine("G0 Z-10\n")
 
 	def gcodeLine(self, line):
 		self.comm.writeLine(line)
@@ -56,14 +55,15 @@ class gcode():
 			zSearch = self.zRE.search(line)
 			zDestination = zSearch.group(1)
 		
-		print(line)
-		print("Z coordinate: " + str(float(zDestination)))
+		print(line.strip())
 		zDestination = float(zDestination) + float(self.zCount)
+		print("Z coordinate: " + str(float(zDestination)))
 		
 		while True:
 			self.checkPosition()
+			print("Diff: " + str(float(self.zCurrent) - float(zDestination)))
 			
-			if ((float(self.zCurrent) - float(self.zDestination))**2 < 0.01):
+			if (float(self.zCurrent) - float(zDestination))**2 < 0.01:
 				self.zCount = zDestination
 				break
 				
@@ -85,6 +85,8 @@ class gcode():
 
 			zCurr = currXYZ.group(3)
 			print("Current Z: " + str(zCurr))
+			break
+
 		self.zCurrent = zCurr
 		
 	def parseHeader(self):

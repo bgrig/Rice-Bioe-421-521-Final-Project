@@ -9,7 +9,8 @@ class slide():
 	def __init__(self, slideTime=3):
 		self.imageNames = []
 		self.slideTime = slideTime
-		self.slice = 0
+		self.sliceCurrent = 0
+		self.totalSlices = None
 		
 		self.loadSlideshow(dir='Testing', ext='png')
 		self.initBackground()
@@ -27,15 +28,17 @@ class slide():
 		images = glob.glob(pathname)
 		images.sort()
 		self.imageNames = images
+		self.totalSlices = len(images)
 		
 	def displayImage(self):
-		imageName = self.imageNames[self.slice]
+		imageName = self.imageNames[self.sliceCurrent]
 		
 		bashCommand = "sudo fbi -T 2 --noverbose --once -t {seconds} {image}".format(seconds=self.slideTime, image=imageName)
 		os.system(bashCommand)
 		time.sleep(self.slideTime+3)
 		
-		self.slice += 1
+		self.sliceCurrent += 1
+		
 
 	def exit(self):
 		os.system("sudo kill $(pgrep fbi)")
