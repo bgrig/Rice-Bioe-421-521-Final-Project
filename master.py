@@ -6,11 +6,6 @@ import sys
 import time
 import re
 import glob
-import picamera
-import time
-
-#create instance of camera
-camera = picamera.PiCamera()
 
 #Output stdout to log file
 #sys.stdout = open("log.txt", "a")
@@ -186,10 +181,6 @@ def initBackground():
     os.system("sudo fbi -T 2 --noverbose ./Background/solid_black.jpg")
     time.sleep(5)
     
-    current_time = time.strftime("%Y-%m-%d_%H%M", time.localtime())
-    output_name = 'test%s.jpg' % current_time
-    camera.capture(output_name)
-
     return
 
 def displayImage(imageName, seconds):
