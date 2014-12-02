@@ -24,7 +24,7 @@ timeout = 1 #timeout for serial communication
 wait = 1 #seconds to wait before releasing hold on rambo communications
 
 def main():  
-    #Initialize Log information
+    	#Initialize Log information
 	print("##################")
 	print(time.strftime("Log: %Y/%m/%d %I:%M:%S"))
 	print(port)
@@ -33,12 +33,13 @@ def main():
 	rambo = portComm.Comm(port=port, baud=baud, device='RAMBO')
 	
 	slideshow = slides.slide()
-	
-	gco = gcoder.gcode(filename="0.3-0.5mm_holes_horizontal_short.gcode", commCl=rambo)
+	slideshow.exit()
+
+	#gco = gcoder.gcode(filename="0.3-0.5mm_holes_horizontal_short.gcode", commCl=rambo)
 
     	for slice in range(0,slideshow.totalSlices):
-        	
-		gcode = gcodeDict[str(slice)]
+        	print(slice)
+		#gcode = gcodeDict[str(slice)]
         	# delay = gcode[0]
     
         	# for i in range(1, len(gcode)):
