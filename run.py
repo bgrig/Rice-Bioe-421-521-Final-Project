@@ -33,22 +33,18 @@ def main():
 	rambo = portComm.Comm(port=port, baud=baud, device='RAMBO')
 	
 	slideshow = slides.slide()
+	#GCo = gcoder.gcode(filename="0.3-0.5mm_holes_horizontal_short.gcode", commCl=rambo)
+	
+	print(slideshow.totalslices)
+
+
+    	#for slice in range(0,slideshow.totalSlices):
+		#delay = GCo.nextSliceMove()
+		#delay = 1 #####dummy code to speed along run through
+        	#slideshow.displayNextImage(delay)
+
 	slideshow.exit()
-
-	#gco = gcoder.gcode(filename="0.3-0.5mm_holes_horizontal_short.gcode", commCl=rambo)
-
-    	for slice in range(0,slideshow.totalSlices):
-        	print(slice)
-		#gcode = gcodeDict[str(slice)]
-        	# delay = gcode[0]
-    
-        	# for i in range(1, len(gcode)):
-            		# line = gcode[i]
-            		# gcodeLine(line)
-    
-        	# imageName = images[slice]
-        	# seconds = int(delay) / 1000
-        	# displayImage(imageName, seconds)
+	rambo.closeComm()
 
 main()
 

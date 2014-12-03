@@ -6,9 +6,8 @@ import glob
 
 
 class slide():
-	def __init__(self, slideTime=3):
+	def __init__(self):
 		self.imageNames = []
-		self.slideTime = slideTime
 		self.sliceCurrent = 0
 		self.totalSlices = None
 		
@@ -30,12 +29,12 @@ class slide():
 		self.imageNames = images
 		self.totalSlices = len(images)
 		
-	def displayImage(self):
+	def displayNextImage(self, delay):
 		imageName = self.imageNames[self.sliceCurrent]
 		
-		bashCommand = "sudo fbi -T 2 --noverbose --once -t {seconds} {image}".format(seconds=self.slideTime, image=imageName)
+		bashCommand = "sudo fbi -T 2 --noverbose --once -t {seconds} {image}".format(seconds=delay, image=imageName)
 		os.system(bashCommand)
-		time.sleep(self.slideTime+3)
+		time.sleep(delay+2)
 		
 		self.sliceCurrent += 1
 		

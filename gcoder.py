@@ -29,7 +29,7 @@ class gcode():
 	def _prepare(self):
 		self.gcodeLine("G28 Z\n")
 		self.gcodeLine("G91\n")
-		self.gcodeLine("G0 Z-10\n")
+		self.gcodeLine("G0 Z-15\n")
 
 	def gcodeLine(self, line):
 		self.comm.writeLine(line)
@@ -148,6 +148,17 @@ class gcode():
 		#parse GCODE
 		self.parseHeader()
 		self.parseGcode()
+
+	def nextSliceMove(self):
+		slice = str(self.sliceCurrent)
+		gcode = self.gcodeDict[slice][1:]
+		for i in range(0,len(gcode)):
+			self.gcodeLine(gcode[i])
+
+		delay = self.gcodeDict[slice][0]
+		self.sliceCurrent += 1
+		
+		return int(delay) / 1000
 		
 	def isMove(self, line):
 		return True if self.gmoveRE.search(line) else False
