@@ -15,6 +15,10 @@ from email import Encoders
 
 #Start an instance of picamera
 camera = picamera.PiCamera() 
+camera.exposure_mode = 'night'
+camera.brightness = 70
+camera.shutter_speed = 10000 #in microseconds
+camera.zoom  = (0.3, 0.3, 0.5, 0.5) #cropping ROI
 
 #Output stdout to log file
 sys.stdout = open("log.txt", "a")
@@ -271,8 +275,10 @@ def displayImage(imageName, seconds):
     bashCommand = "sudo fbi -T 2 --noverbose --once -t {0} {1}".format(seconds, imageName)
     os.system(bashCommand)
     # img code here
+    # emailImage()
+    time.sleep(seconds)
     emailImage()
-    time.sleep(seconds+3)
+    time.sleep(3)
 
 # kills the fbi command to return the system to the original GUI terminal
 def exitFBI():
