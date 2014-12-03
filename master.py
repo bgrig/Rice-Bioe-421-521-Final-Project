@@ -72,6 +72,55 @@ while True:
     if timer == 3:
         break
 
+def emailImage():
+
+  # Save timestamp on filename
+    filename = time.strftime("%Y-%m-%d_%H%M", time.localtime())
+    output_name = 'test%s.jpg' %filename 
+
+    camera.capture(output_name)
+
+    # Acct from which email will be sent
+    gmail_user = "millerlabdlp@gmail.com"
+    gmail_pwd = "millerlab7890"
+
+    # Defining components of email
+    def mail(to, subject, text, attach):
+        msg = MIMEMultipart()
+
+        msg['From'] = gmail_user
+        msg['To'] = to
+        msg['Subject'] = subject
+
+        msg.attach(MIMEText(text))
+
+        part = MIMEBase('application', 'octet-stream')
+        part.set_payload(open(attach, 'rb').read())
+        Encoders.encode_base64(part)
+        part.add_header('Content-Disposition','attachment; filename="%s"' %os.path.basename(attach))
+        msg.attach(part)
+
+        mailServer = smtplib.SMTP("smtp.gmail.com", 587)
+        mailServer.ehlo()
+        mailServer.starttls()
+        mailServer.ehlo()
+        mailServer.login(gmail_user, gmail_pwd)
+        mailServer.sendmail(gmail_user, to, msg.as_string())
+        # Should be mailServer.quit(), but that crashes...
+        mailServer.close()
+
+    #Send message with text
+    mail("bgrigoryan@gmail.com",
+        "Print Status - DLP5",
+        "This is a email sent with python",
+        output_name)
+
+    time.sleep(1)
+
+    #either remove the file or move it to another dir
+    os.remove(output_name)
+
+    return
 
 # Quick function to check if something is a move command
 def isMove(line):
@@ -214,59 +263,15 @@ def gcodeLine(line, ser=rambo):
 def initBackground():
     os.system("sudo fbi -T 2 --noverbose ./Background/solid_black.jpg")
     time.sleep(5)
-
-    # Save timestamp on filename
-    filename = time.st rftime("%Y-%m-%d_%H%M", time.localtime())
-    output_name = 'test%s.jpg' %filename 
-
-    camera.capture(output_name)
-
-    # Acct from which email will be sent
-    gmail_user = "XXXX@gmail.com"
-    gmail_pwd = "XXXX"
-
-    # Defining components of email
-    def mail(to, subject, text, attach):
-        msg = MIMEMultipart()
-
-        msg['From'] = gmail_user
-        msg['To'] = to
-        msg['Subject'] = subject
-
-        msg.attach(MIMEText(text))
-
-        part = MIMEBase('application', 'octet-stream')
-        part.set_payload(open(attach, 'rb').read())
-        Encoders.encode_base64(part)
-        part.add_header('Content-Disposition','attachment; filename="%s"' %os.path.basename(attach))
-        msg.attach(part)
-
-        mailServer = smtplib.SMTP("smtp.gmail.com", 587)
-        mailServer.ehlo()
-        mailServer.starttls()
-        mailServer.ehlo()
-        mailServer.login(gmail_user, gmail_pwd)
-        mailServer.sendmail(gmail_user, to, msg.as_string())
-        # Should be mailServer.quit(), but that crashes...
-        mailServer.close()
-
-    #Send message with text
-    mail("XXXX@gmail.com",
-        "Hello from python!",
-        "This is a email sent with python",
-        output_name)
-
-    time.sleep(1)
-
-    #either remove the file or move it to another dir
-    os.remove(output_name)
-
+    emailImage()
     return
 
 # Uses fbi to display a specified image for a specified number of seconds
 def displayImage(imageName, seconds):
     bashCommand = "sudo fbi -T 2 --noverbose --once -t {0} {1}".format(seconds, imageName)
     os.system(bashCommand)
+    # img code here
+    emailImage()
     time.sleep(seconds+3)
 
 # kills the fbi command to return the system to the original GUI terminal
