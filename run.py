@@ -33,7 +33,7 @@ def main():
 	rambo = portComm.Comm(port=port, baud=baud, device='RAMBO')
 	
 	slideshow = slides.slide()
-	GCo = gcoder.gcode(filename="0.3-0.5mm_holes_horizontal_short.gcode", commCl=rambo)
+	GCo = gcoder.gcode(filename="diagrid_s.gcode", commCl=rambo)
 
     	for slice in range(0,slideshow.totalSlices):
 		delay = GCo.nextSliceMove()
