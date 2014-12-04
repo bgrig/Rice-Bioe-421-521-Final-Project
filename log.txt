@@ -94,3 +94,447 @@ ok
 ok
 G0 Z100 F500
 ok
+##################
+Log: 2014/12/04 12:52:51
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Nov 30 2014 21:12:07 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Nov 30 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+
+29
+slice: 0
+slice: 1
+slice: 2
+slice: 3
+slice: 4
+slice: 5
+slice: 6
+slice: 7
+slice: 8
+slice: 9
+slice: 10
+slice: 11
+slice: 12
+slice: 13
+slice: 14
+slice: 15
+slice: 16
+slice: 17
+slice: 18
+slice: 19
+slice: 20
+slice: 21
+slice: 22
+slice: 23
+slice: 24
+slice: 25
+slice: 26
+slice: 27
+slice: 28
+##################
+Log: 2014/12/04 12:54:12
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Nov 30 2014 21:12:07 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Nov 30 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+
+G28 Z
+waitOnMove Line: G28 Z
+Is a move
+G28 Z
+Z coordinate: 105.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+Current Z: 105.00
+Diff: 0.0
+G90
+waitOnMove Line: G90
+Not a move
+G0 Z6.15
+waitOnMove Line: G0 Z6.15
+Is a move
+G0 Z6.15
+Z coordinate: 111.15
+ok
+ok
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+
+ok
+ok
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+Current Z: 105.00
+Diff: -6.15
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:95.00
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:95.00
+ok
+
+Current Z: 95.00
+Diff: -16.15
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:84.96
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:84.96
+ok
+
+Current Z: 84.96
+Diff: -26.19
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:74.92
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:74.92
+ok
+
+Current Z: 74.92
+Diff: -36.23
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:64.87
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:64.87
+ok
+
+Current Z: 64.87
+Diff: -46.28
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:54.83
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:54.83
+ok
+
+Current Z: 54.83
+Diff: -56.32
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:44.78
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:44.78
+ok
+
+Current Z: 44.78
+Diff: -66.37
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:34.73
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:34.73
+ok
+
+Current Z: 34.73
+Diff: -76.42
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:24.69
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:24.69
+ok
+
+Current Z: 24.69
+Diff: -86.46
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:14.64
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:14.64
+ok
+
+Current Z: 14.64
+Diff: -96.51
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+
+Current Z: 6.15
+Diff: -105.0
+X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
+ok
+

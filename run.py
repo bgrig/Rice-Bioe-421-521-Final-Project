@@ -13,7 +13,7 @@ import gcoder
 
 
 #Output stdout to log file
-#sys.stdout = open("log.txt", "a")
+sys.stdout = open("log.txt", "a")
 
 #Port Definitions
 port = "/dev/ttyACM0"
@@ -33,15 +33,13 @@ def main():
 	rambo = portComm.Comm(port=port, baud=baud, device='RAMBO')
 	
 	slideshow = slides.slide()
-	#GCo = gcoder.gcode(filename="0.3-0.5mm_holes_horizontal_short.gcode", commCl=rambo)
-	
-	print(slideshow.totalslices)
+	GCo = gcoder.gcode(filename="0.3-0.5mm_holes_horizontal_short.gcode", commCl=rambo)
 
-
-    	#for slice in range(0,slideshow.totalSlices):
-		#delay = GCo.nextSliceMove()
+    	for slice in range(0,slideshow.totalSlices):
+		delay = GCo.nextSliceMove()
 		#delay = 1 #####dummy code to speed along run through
-        	#slideshow.displayNextImage(delay)
+        	slideshow.displayNextImage(delay)
+		print("slice: " + str(slice))
 
 	slideshow.exit()
 	rambo.closeComm()
