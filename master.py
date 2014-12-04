@@ -129,8 +129,8 @@ def emailImage():
 
     time.sleep(1)
 
-    #either remove the file or move it to another dir
-    os.remove(output_name)
+    #either remove the file or move it to another dir (keep for now)
+    #os.remove(output_name)
 
     return
 
