@@ -6140,3 +6140,4668 @@ timer: 0
 Current position: X:0.00Y:0.00Z:95.05E:0.00 Count X: 0.00Y:0.00Z:96.31
 ok
 
+##################
+Log: 2014/12/03 05:21:26
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Nov 30 2014 21:12:07 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Nov 30 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G28 Z
+waitOnMove Line: G28 Z
+Is a move
+Z coordinate: 105
+timer: 0
+timer: 1
+Current position: ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+Current Z: 105.00
+G91
+waitOnMove Line: G91
+Not a move
+G0 Z-10
+waitOnMove Line: G0 Z-10
+Is a move
+G0 Z-10
+
+Z coordinate: -10.0
+timer: 0
+Current position: ok
+ok
+X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:100.06
+ok
+
+timer: 0
+timer: 1
+ok
+ok
+X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:100.06
+ok
+
+Current Z: 100.06
+Destination Z: 95.0
+timer: 0
+Current position: X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:95.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:95.00
+ok
+
+Current Z: 95.00
+Destination Z: 95.0
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:96.67
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:96.67
+ok
+
+Current Z: 96.67
+Destination Z: 99.0
+timer: 0
+Current position: X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:99.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:99.00
+ok
+
+Current Z: 99.00
+Destination Z: 99.0
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:97.33
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:97.33
+ok
+
+Current Z: 97.33
+Destination Z: 95.1
+timer: 0
+Current position: X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:95.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:95.10
+ok
+
+Current Z: 95.10
+Destination Z: 95.1
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:96.77
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:96.77
+ok
+
+Current Z: 96.77
+Destination Z: 99.1
+timer: 0
+Current position: X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:99.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:99.10
+ok
+
+Current Z: 99.10
+Destination Z: 99.1
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:97.43
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:97.43
+ok
+
+Current Z: 97.43
+Destination Z: 95.2
+timer: 0
+Current position: X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:95.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:95.20
+ok
+
+Current Z: 95.20
+Destination Z: 95.2
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:96.87
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:96.87
+ok
+
+Current Z: 96.87
+Destination Z: 99.2
+timer: 0
+Current position: X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:99.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:99.20
+ok
+
+Current Z: 99.20
+Destination Z: 99.2
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:97.53
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:97.53
+ok
+
+Current Z: 97.53
+Destination Z: 95.3
+timer: 0
+Current position: X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:95.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:95.30
+ok
+
+Current Z: 95.30
+Destination Z: 95.3
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:96.98
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:96.98
+ok
+
+Current Z: 96.98
+Destination Z: 99.3
+timer: 0
+Current position: X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:99.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:99.30
+ok
+
+Current Z: 99.30
+Destination Z: 99.3
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:97.63
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:97.63
+ok
+
+Current Z: 97.63
+Destination Z: 95.4
+timer: 0
+Current position: X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:95.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:95.40
+ok
+
+Current Z: 95.40
+Destination Z: 95.4
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:97.07
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:97.07
+ok
+
+Current Z: 97.07
+Destination Z: 99.4
+timer: 0
+Current position: X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:99.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:99.40
+ok
+
+Current Z: 99.40
+Destination Z: 99.4
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:97.73
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:97.73
+ok
+
+Current Z: 97.73
+Destination Z: 95.5
+timer: 0
+Current position: X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:95.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:95.50
+ok
+
+Current Z: 95.50
+Destination Z: 95.5
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:97.17
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:97.17
+ok
+
+Current Z: 97.17
+Destination Z: 99.5
+timer: 0
+Current position: X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:99.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:99.50
+ok
+
+Current Z: 99.50
+Destination Z: 99.5
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:97.83
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:97.83
+ok
+
+Current Z: 97.83
+Destination Z: 95.6
+timer: 0
+Current position: X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:95.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:95.60
+ok
+
+Current Z: 95.60
+Destination Z: 95.6
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:97.27
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:97.27
+ok
+
+Current Z: 97.27
+Destination Z: 99.6
+timer: 0
+Current position: X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:99.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:99.60
+ok
+
+Current Z: 99.60
+Destination Z: 99.6
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:97.93
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:97.93
+ok
+
+Current Z: 97.93
+Destination Z: 95.7
+timer: 0
+Current position: X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:95.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:95.70
+ok
+
+Current Z: 95.70
+Destination Z: 95.7
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:97.37
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:97.37
+ok
+
+Current Z: 97.37
+Destination Z: 99.7
+timer: 0
+Current position: X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:99.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:99.70
+ok
+
+Current Z: 99.70
+Destination Z: 99.7
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:98.03
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:98.03
+ok
+
+Current Z: 98.03
+Destination Z: 95.8
+timer: 0
+Current position: X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:95.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:95.80
+ok
+
+Current Z: 95.80
+Destination Z: 95.8
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:97.47
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:97.47
+ok
+
+Current Z: 97.47
+Destination Z: 99.8
+timer: 0
+Current position: X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:99.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:99.80
+ok
+
+Current Z: 99.80
+Destination Z: 99.8
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:98.13
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:98.13
+ok
+
+Current Z: 98.13
+Destination Z: 95.9
+timer: 0
+Current position: X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:95.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:95.90
+ok
+
+Current Z: 95.90
+Destination Z: 95.9
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:97.57
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:97.57
+ok
+
+Current Z: 97.57
+Destination Z: 99.9
+timer: 0
+Current position: X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:99.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:99.90
+ok
+
+Current Z: 99.90
+Destination Z: 99.9
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.00E:0.00 Count X: 0.00Y:0.00Z:98.23
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.00E:0.00 Count X: 0.00Y:0.00Z:98.23
+ok
+
+Current Z: 98.23
+Destination Z: 96.0
+timer: 0
+Current position: X:0.00Y:0.00Z:96.00E:0.00 Count X: 0.00Y:0.00Z:96.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.00E:0.00 Count X: 0.00Y:0.00Z:96.00
+ok
+
+Current Z: 96.00
+Destination Z: 96.0
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:97.67
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:97.67
+ok
+
+Current Z: 97.67
+Destination Z: 100.0
+timer: 0
+Current position: X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:100.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:100.00
+ok
+
+Current Z: 100.00
+Destination Z: 100.0
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.10E:0.00 Count X: 0.00Y:0.00Z:98.33
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.10E:0.00 Count X: 0.00Y:0.00Z:98.33
+ok
+
+Current Z: 98.33
+Destination Z: 96.1
+timer: 0
+Current position: X:0.00Y:0.00Z:96.10E:0.00 Count X: 0.00Y:0.00Z:96.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.10E:0.00 Count X: 0.00Y:0.00Z:96.10
+ok
+
+Current Z: 96.10
+Destination Z: 96.1
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:97.77
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:97.77
+ok
+
+Current Z: 97.77
+Destination Z: 100.1
+timer: 0
+Current position: X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:100.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:100.10
+ok
+
+Current Z: 100.10
+Destination Z: 100.1
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.20E:0.00 Count X: 0.00Y:0.00Z:98.43
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.20E:0.00 Count X: 0.00Y:0.00Z:98.43
+ok
+
+Current Z: 98.43
+Destination Z: 96.2
+timer: 0
+Current position: X:0.00Y:0.00Z:96.20E:0.00 Count X: 0.00Y:0.00Z:96.20
+ok
+
+##################
+Log: 2014/12/03 05:32:39
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Nov 30 2014 21:12:07 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Nov 30 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G28 Z
+waitOnMove Line: G28 Z
+Is a move
+Z coordinate: 105
+timer: 0
+timer: 1
+Current position: ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+Current Z: 105.00
+G91
+waitOnMove Line: G91
+Not a move
+G0 Z-10
+waitOnMove Line: G0 Z-10
+Is a move
+G0 Z-10
+
+Z coordinate: -10.0
+timer: 0
+Current position: ok
+ok
+X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:100.06
+ok
+
+timer: 0
+timer: 1
+ok
+ok
+X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:100.06
+ok
+
+Current Z: 100.06
+Destination Z: 95.0
+timer: 0
+Current position: X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:95.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:95.00
+ok
+
+Current Z: 95.00
+Destination Z: 95.0
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:96.67
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:96.67
+ok
+
+Current Z: 96.67
+Destination Z: 99.0
+timer: 0
+Current position: X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:99.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:99.00
+ok
+
+Current Z: 99.00
+Destination Z: 99.0
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:97.33
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:97.33
+ok
+
+Current Z: 97.33
+Destination Z: 95.1
+timer: 0
+Current position: X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:95.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:95.10
+ok
+
+Current Z: 95.10
+Destination Z: 95.1
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:96.77
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:96.77
+ok
+
+Current Z: 96.77
+Destination Z: 99.1
+timer: 0
+Current position: X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:99.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:99.10
+ok
+
+Current Z: 99.10
+Destination Z: 99.1
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:97.43
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:97.43
+ok
+
+Current Z: 97.43
+Destination Z: 95.2
+timer: 0
+Current position: X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:95.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:95.20
+ok
+
+Current Z: 95.20
+Destination Z: 95.2
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:96.87
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:96.87
+ok
+
+Current Z: 96.87
+Destination Z: 99.2
+timer: 0
+Current position: X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:99.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:99.20
+ok
+
+Current Z: 99.20
+Destination Z: 99.2
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:97.53
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:97.53
+ok
+
+Current Z: 97.53
+Destination Z: 95.3
+timer: 0
+Current position: X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:95.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:95.30
+ok
+
+Current Z: 95.30
+Destination Z: 95.3
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:96.97
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:96.97
+ok
+
+Current Z: 96.97
+Destination Z: 99.3
+timer: 0
+Current position: X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:99.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:99.30
+ok
+
+Current Z: 99.30
+Destination Z: 99.3
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:97.63
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:97.63
+ok
+
+Current Z: 97.63
+Destination Z: 95.4
+timer: 0
+Current position: X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:95.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:95.40
+ok
+
+Current Z: 95.40
+Destination Z: 95.4
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:97.07
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:97.07
+ok
+
+Current Z: 97.07
+Destination Z: 99.4
+timer: 0
+Current position: X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:99.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:99.40
+ok
+
+Current Z: 99.40
+Destination Z: 99.4
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:97.73
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:97.73
+ok
+
+Current Z: 97.73
+Destination Z: 95.5
+timer: 0
+Current position: X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:95.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:95.50
+ok
+
+Current Z: 95.50
+Destination Z: 95.5
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:97.17
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:97.17
+ok
+
+Current Z: 97.17
+Destination Z: 99.5
+timer: 0
+Current position: X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:99.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:99.50
+ok
+
+Current Z: 99.50
+Destination Z: 99.5
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:97.83
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:97.83
+ok
+
+Current Z: 97.83
+Destination Z: 95.6
+timer: 0
+Current position: X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:95.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:95.60
+ok
+
+Current Z: 95.60
+Destination Z: 95.6
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:97.27
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:97.27
+ok
+
+Current Z: 97.27
+Destination Z: 99.6
+timer: 0
+Current position: X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:99.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:99.60
+ok
+
+Current Z: 99.60
+Destination Z: 99.6
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:97.93
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:97.93
+ok
+
+Current Z: 97.93
+Destination Z: 95.7
+timer: 0
+Current position: X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:95.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:95.70
+ok
+
+Current Z: 95.70
+Destination Z: 95.7
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:97.37
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:97.37
+ok
+
+Current Z: 97.37
+Destination Z: 99.7
+timer: 0
+Current position: X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:99.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:99.70
+ok
+
+Current Z: 99.70
+Destination Z: 99.7
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:98.03
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:98.03
+ok
+
+Current Z: 98.03
+Destination Z: 95.8
+timer: 0
+Current position: X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:95.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:95.80
+ok
+
+Current Z: 95.80
+Destination Z: 95.8
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:97.47
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:97.47
+ok
+
+Current Z: 97.47
+Destination Z: 99.8
+timer: 0
+Current position: X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:99.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:99.80
+ok
+
+Current Z: 99.80
+Destination Z: 99.8
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:98.13
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:98.13
+ok
+
+Current Z: 98.13
+Destination Z: 95.9
+timer: 0
+Current position: X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:95.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:95.90
+ok
+
+Current Z: 95.90
+Destination Z: 95.9
+##################
+Log: 2014/12/03 06:00:23
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Nov 30 2014 21:12:07 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Nov 30 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G28 Z
+waitOnMove Line: G28 Z
+Is a move
+Z coordinate: 105
+timer: 0
+timer: 1
+Current position: ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+Current Z: 105.00
+##################
+Log: 2014/12/03 06:02:08
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Nov 30 2014 21:12:07 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Nov 30 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+##################
+Log: 2014/12/03 06:03:36
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Nov 30 2014 21:12:07 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Nov 30 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+G28 Z
+waitOnMove Line: G28 Z
+Is a move
+Z coordinate: 105
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+Current Z: 105.00
+G91
+waitOnMove Line: G91
+Not a move
+G0 Z-10
+waitOnMove Line: G0 Z-10
+Is a move
+G0 Z-10
+
+Z coordinate: -10.0
+timer: 0
+Current position: ok
+ok
+X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:100.06
+ok
+
+timer: 0
+timer: 1
+ok
+ok
+X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:100.06
+ok
+
+Current Z: 100.06
+Destination Z: 95.0
+timer: 0
+Current position: X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:95.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.00E:0.00 Count X: 0.00Y:0.00Z:95.00
+ok
+
+Current Z: 95.00
+Destination Z: 95.0
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:96.67
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:96.67
+ok
+
+Current Z: 96.67
+Destination Z: 99.0
+timer: 0
+Current position: X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:99.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:99.00
+ok
+
+Current Z: 99.00
+Destination Z: 99.0
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:97.33
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:97.33
+ok
+
+Current Z: 97.33
+Destination Z: 95.1
+timer: 0
+Current position: X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:95.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.10E:0.00 Count X: 0.00Y:0.00Z:95.10
+ok
+
+Current Z: 95.10
+Destination Z: 95.1
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:96.77
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:96.77
+ok
+
+Current Z: 96.77
+Destination Z: 99.1
+timer: 0
+Current position: X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:99.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:99.10
+ok
+
+Current Z: 99.10
+Destination Z: 99.1
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:97.43
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:97.43
+ok
+
+Current Z: 97.43
+Destination Z: 95.2
+timer: 0
+Current position: X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:95.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.20E:0.00 Count X: 0.00Y:0.00Z:95.20
+ok
+
+Current Z: 95.20
+Destination Z: 95.2
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:96.87
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:96.87
+ok
+
+Current Z: 96.87
+Destination Z: 99.2
+timer: 0
+Current position: X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:99.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:99.20
+ok
+
+Current Z: 99.20
+Destination Z: 99.2
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:97.53
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:97.53
+ok
+
+Current Z: 97.53
+Destination Z: 95.3
+timer: 0
+Current position: X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:95.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.30E:0.00 Count X: 0.00Y:0.00Z:95.30
+ok
+
+Current Z: 95.30
+Destination Z: 95.3
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:96.97
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:96.97
+ok
+
+Current Z: 96.97
+Destination Z: 99.3
+timer: 0
+Current position: X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:99.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:99.30
+ok
+
+Current Z: 99.30
+Destination Z: 99.3
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:97.63
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:97.63
+ok
+
+Current Z: 97.63
+Destination Z: 95.4
+timer: 0
+Current position: X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:95.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.40E:0.00 Count X: 0.00Y:0.00Z:95.40
+ok
+
+Current Z: 95.40
+Destination Z: 95.4
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:97.07
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:97.07
+ok
+
+Current Z: 97.07
+Destination Z: 99.4
+timer: 0
+Current position: X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:99.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:99.40
+ok
+
+Current Z: 99.40
+Destination Z: 99.4
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:97.73
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:97.73
+ok
+
+Current Z: 97.73
+Destination Z: 95.5
+timer: 0
+Current position: X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:95.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.50E:0.00 Count X: 0.00Y:0.00Z:95.50
+ok
+
+Current Z: 95.50
+Destination Z: 95.5
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:97.17
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:97.17
+ok
+
+Current Z: 97.17
+Destination Z: 99.5
+timer: 0
+Current position: X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:99.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:99.50
+ok
+
+Current Z: 99.50
+Destination Z: 99.5
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:97.83
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:97.83
+ok
+
+Current Z: 97.83
+Destination Z: 95.6
+timer: 0
+Current position: X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:95.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.60E:0.00 Count X: 0.00Y:0.00Z:95.60
+ok
+
+Current Z: 95.60
+Destination Z: 95.6
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:97.27
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:97.27
+ok
+
+Current Z: 97.27
+Destination Z: 99.6
+timer: 0
+Current position: X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:99.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:99.60
+ok
+
+Current Z: 99.60
+Destination Z: 99.6
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:97.93
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:97.93
+ok
+
+Current Z: 97.93
+Destination Z: 95.7
+timer: 0
+Current position: X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:95.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.70E:0.00 Count X: 0.00Y:0.00Z:95.70
+ok
+
+Current Z: 95.70
+Destination Z: 95.7
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:97.37
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:97.37
+ok
+
+Current Z: 97.37
+Destination Z: 99.7
+timer: 0
+Current position: X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:99.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:99.70
+ok
+
+Current Z: 99.70
+Destination Z: 99.7
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:98.03
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:98.03
+ok
+
+Current Z: 98.03
+Destination Z: 95.8
+timer: 0
+Current position: X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:95.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.80E:0.00 Count X: 0.00Y:0.00Z:95.80
+ok
+
+Current Z: 95.80
+Destination Z: 95.8
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:97.47
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:97.47
+ok
+
+Current Z: 97.47
+Destination Z: 99.8
+timer: 0
+Current position: X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:99.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:99.80
+ok
+
+Current Z: 99.80
+Destination Z: 99.8
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:98.13
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:98.13
+ok
+
+Current Z: 98.13
+Destination Z: 95.9
+timer: 0
+Current position: X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:95.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:95.90E:0.00 Count X: 0.00Y:0.00Z:95.90
+ok
+
+Current Z: 95.90
+Destination Z: 95.9
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:97.57
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:97.57
+ok
+
+Current Z: 97.57
+Destination Z: 99.9
+timer: 0
+Current position: X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:99.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:99.90
+ok
+
+Current Z: 99.90
+Destination Z: 99.9
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.00E:0.00 Count X: 0.00Y:0.00Z:98.23
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.00E:0.00 Count X: 0.00Y:0.00Z:98.23
+ok
+
+Current Z: 98.23
+Destination Z: 96.0
+timer: 0
+Current position: X:0.00Y:0.00Z:96.00E:0.00 Count X: 0.00Y:0.00Z:96.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.00E:0.00 Count X: 0.00Y:0.00Z:96.00
+ok
+
+Current Z: 96.00
+Destination Z: 96.0
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:97.67
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:97.67
+ok
+
+Current Z: 97.67
+Destination Z: 100.0
+timer: 0
+Current position: X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:100.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:100.00
+ok
+
+Current Z: 100.00
+Destination Z: 100.0
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.10E:0.00 Count X: 0.00Y:0.00Z:98.33
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.10E:0.00 Count X: 0.00Y:0.00Z:98.33
+ok
+
+Current Z: 98.33
+Destination Z: 96.1
+timer: 0
+Current position: X:0.00Y:0.00Z:96.10E:0.00 Count X: 0.00Y:0.00Z:96.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.10E:0.00 Count X: 0.00Y:0.00Z:96.10
+ok
+
+Current Z: 96.10
+Destination Z: 96.1
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:97.77
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:97.77
+ok
+
+Current Z: 97.77
+Destination Z: 100.1
+timer: 0
+Current position: X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:100.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:100.10
+ok
+
+Current Z: 100.10
+Destination Z: 100.1
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.20E:0.00 Count X: 0.00Y:0.00Z:98.43
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.20E:0.00 Count X: 0.00Y:0.00Z:98.43
+ok
+
+Current Z: 98.43
+Destination Z: 96.2
+timer: 0
+Current position: X:0.00Y:0.00Z:96.20E:0.00 Count X: 0.00Y:0.00Z:96.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.20E:0.00 Count X: 0.00Y:0.00Z:96.20
+ok
+
+Current Z: 96.20
+Destination Z: 96.2
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.20E:0.00 Count X: 0.00Y:0.00Z:97.87
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.20E:0.00 Count X: 0.00Y:0.00Z:97.87
+ok
+
+Current Z: 97.87
+Destination Z: 100.2
+timer: 0
+Current position: X:0.00Y:0.00Z:100.20E:0.00 Count X: 0.00Y:0.00Z:100.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.20E:0.00 Count X: 0.00Y:0.00Z:100.20
+ok
+
+Current Z: 100.20
+Destination Z: 100.2
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.30E:0.00 Count X: 0.00Y:0.00Z:98.53
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.30E:0.00 Count X: 0.00Y:0.00Z:98.53
+ok
+
+Current Z: 98.53
+Destination Z: 96.3
+timer: 0
+Current position: X:0.00Y:0.00Z:96.30E:0.00 Count X: 0.00Y:0.00Z:96.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.30E:0.00 Count X: 0.00Y:0.00Z:96.30
+ok
+
+Current Z: 96.30
+Destination Z: 96.3
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.30E:0.00 Count X: 0.00Y:0.00Z:97.97
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.30E:0.00 Count X: 0.00Y:0.00Z:97.97
+ok
+
+Current Z: 97.97
+Destination Z: 100.3
+timer: 0
+Current position: X:0.00Y:0.00Z:100.30E:0.00 Count X: 0.00Y:0.00Z:100.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.30E:0.00 Count X: 0.00Y:0.00Z:100.30
+ok
+
+Current Z: 100.30
+Destination Z: 100.3
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.40E:0.00 Count X: 0.00Y:0.00Z:98.63
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.40E:0.00 Count X: 0.00Y:0.00Z:98.63
+ok
+
+Current Z: 98.63
+Destination Z: 96.4
+timer: 0
+Current position: X:0.00Y:0.00Z:96.40E:0.00 Count X: 0.00Y:0.00Z:96.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.40E:0.00 Count X: 0.00Y:0.00Z:96.40
+ok
+
+Current Z: 96.40
+Destination Z: 96.4
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.40E:0.00 Count X: 0.00Y:0.00Z:98.07
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.40E:0.00 Count X: 0.00Y:0.00Z:98.07
+ok
+
+Current Z: 98.07
+Destination Z: 100.4
+timer: 0
+Current position: X:0.00Y:0.00Z:100.40E:0.00 Count X: 0.00Y:0.00Z:100.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.40E:0.00 Count X: 0.00Y:0.00Z:100.40
+ok
+
+Current Z: 100.40
+Destination Z: 100.4
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.50E:0.00 Count X: 0.00Y:0.00Z:98.73
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.50E:0.00 Count X: 0.00Y:0.00Z:98.73
+ok
+
+Current Z: 98.73
+Destination Z: 96.5
+timer: 0
+Current position: X:0.00Y:0.00Z:96.50E:0.00 Count X: 0.00Y:0.00Z:96.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.50E:0.00 Count X: 0.00Y:0.00Z:96.50
+ok
+
+Current Z: 96.50
+Destination Z: 96.5
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.50E:0.00 Count X: 0.00Y:0.00Z:98.17
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.50E:0.00 Count X: 0.00Y:0.00Z:98.17
+ok
+
+Current Z: 98.17
+Destination Z: 100.5
+timer: 0
+Current position: X:0.00Y:0.00Z:100.50E:0.00 Count X: 0.00Y:0.00Z:100.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.50E:0.00 Count X: 0.00Y:0.00Z:100.50
+ok
+
+Current Z: 100.50
+Destination Z: 100.5
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.60E:0.00 Count X: 0.00Y:0.00Z:98.83
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.60E:0.00 Count X: 0.00Y:0.00Z:98.83
+ok
+
+Current Z: 98.83
+Destination Z: 96.6
+timer: 0
+Current position: X:0.00Y:0.00Z:96.60E:0.00 Count X: 0.00Y:0.00Z:96.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.60E:0.00 Count X: 0.00Y:0.00Z:96.60
+ok
+
+Current Z: 96.60
+Destination Z: 96.6
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.60E:0.00 Count X: 0.00Y:0.00Z:98.27
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.60E:0.00 Count X: 0.00Y:0.00Z:98.27
+ok
+
+Current Z: 98.27
+Destination Z: 100.6
+timer: 0
+Current position: X:0.00Y:0.00Z:100.60E:0.00 Count X: 0.00Y:0.00Z:100.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.60E:0.00 Count X: 0.00Y:0.00Z:100.60
+ok
+
+Current Z: 100.60
+Destination Z: 100.6
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.70E:0.00 Count X: 0.00Y:0.00Z:98.93
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.70E:0.00 Count X: 0.00Y:0.00Z:98.93
+ok
+
+Current Z: 98.93
+Destination Z: 96.7
+timer: 0
+Current position: X:0.00Y:0.00Z:96.70E:0.00 Count X: 0.00Y:0.00Z:96.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.70E:0.00 Count X: 0.00Y:0.00Z:96.70
+ok
+
+Current Z: 96.70
+Destination Z: 96.7
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.70E:0.00 Count X: 0.00Y:0.00Z:98.37
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.70E:0.00 Count X: 0.00Y:0.00Z:98.37
+ok
+
+Current Z: 98.37
+Destination Z: 100.7
+timer: 0
+Current position: X:0.00Y:0.00Z:100.70E:0.00 Count X: 0.00Y:0.00Z:100.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.70E:0.00 Count X: 0.00Y:0.00Z:100.70
+ok
+
+Current Z: 100.70
+Destination Z: 100.7
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.80E:0.00 Count X: 0.00Y:0.00Z:99.03
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.80E:0.00 Count X: 0.00Y:0.00Z:99.03
+ok
+
+Current Z: 99.03
+Destination Z: 96.8
+timer: 0
+Current position: X:0.00Y:0.00Z:96.80E:0.00 Count X: 0.00Y:0.00Z:96.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.80E:0.00 Count X: 0.00Y:0.00Z:96.80
+ok
+
+Current Z: 96.80
+Destination Z: 96.8
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.80E:0.00 Count X: 0.00Y:0.00Z:98.47
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.80E:0.00 Count X: 0.00Y:0.00Z:98.47
+ok
+
+Current Z: 98.47
+Destination Z: 100.8
+timer: 0
+Current position: X:0.00Y:0.00Z:100.80E:0.00 Count X: 0.00Y:0.00Z:100.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.80E:0.00 Count X: 0.00Y:0.00Z:100.80
+ok
+
+Current Z: 100.80
+Destination Z: 100.8
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:96.90E:0.00 Count X: 0.00Y:0.00Z:99.13
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:96.90E:0.00 Count X: 0.00Y:0.00Z:99.13
+ok
+
+Current Z: 99.13
+Destination Z: 96.9
+timer: 0
+Current position: X:0.00Y:0.00Z:96.90E:0.00 Count X: 0.00Y:0.00Z:96.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:96.90E:0.00 Count X: 0.00Y:0.00Z:96.90
+ok
+
+Current Z: 96.90
+Destination Z: 96.9
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.90E:0.00 Count X: 0.00Y:0.00Z:98.57
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.90E:0.00 Count X: 0.00Y:0.00Z:98.57
+ok
+
+Current Z: 98.57
+Destination Z: 100.9
+timer: 0
+Current position: X:0.00Y:0.00Z:100.90E:0.00 Count X: 0.00Y:0.00Z:100.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.90E:0.00 Count X: 0.00Y:0.00Z:100.90
+ok
+
+Current Z: 100.90
+Destination Z: 100.9
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.00E:0.00 Count X: 0.00Y:0.00Z:99.23
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.00E:0.00 Count X: 0.00Y:0.00Z:99.23
+ok
+
+Current Z: 99.23
+Destination Z: 97.0
+timer: 0
+Current position: X:0.00Y:0.00Z:97.00E:0.00 Count X: 0.00Y:0.00Z:97.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.00E:0.00 Count X: 0.00Y:0.00Z:97.00
+ok
+
+Current Z: 97.00
+Destination Z: 97.0
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.00E:0.00 Count X: 0.00Y:0.00Z:98.67
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.00E:0.00 Count X: 0.00Y:0.00Z:98.67
+ok
+
+Current Z: 98.67
+Destination Z: 101.0
+timer: 0
+Current position: X:0.00Y:0.00Z:101.00E:0.00 Count X: 0.00Y:0.00Z:101.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.00E:0.00 Count X: 0.00Y:0.00Z:101.00
+ok
+
+Current Z: 101.00
+Destination Z: 101.0
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.10E:0.00 Count X: 0.00Y:0.00Z:99.33
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.10E:0.00 Count X: 0.00Y:0.00Z:99.33
+ok
+
+Current Z: 99.33
+Destination Z: 97.1
+timer: 0
+Current position: X:0.00Y:0.00Z:97.10E:0.00 Count X: 0.00Y:0.00Z:97.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.10E:0.00 Count X: 0.00Y:0.00Z:97.10
+ok
+
+Current Z: 97.10
+Destination Z: 97.1
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.10E:0.00 Count X: 0.00Y:0.00Z:98.77
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.10E:0.00 Count X: 0.00Y:0.00Z:98.77
+ok
+
+Current Z: 98.77
+Destination Z: 101.1
+timer: 0
+Current position: X:0.00Y:0.00Z:101.10E:0.00 Count X: 0.00Y:0.00Z:101.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.10E:0.00 Count X: 0.00Y:0.00Z:101.10
+ok
+
+Current Z: 101.10
+Destination Z: 101.1
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.20E:0.00 Count X: 0.00Y:0.00Z:99.43
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.20E:0.00 Count X: 0.00Y:0.00Z:99.43
+ok
+
+Current Z: 99.43
+Destination Z: 97.2
+timer: 0
+Current position: X:0.00Y:0.00Z:97.20E:0.00 Count X: 0.00Y:0.00Z:97.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.20E:0.00 Count X: 0.00Y:0.00Z:97.20
+ok
+
+Current Z: 97.20
+Destination Z: 97.2
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.20E:0.00 Count X: 0.00Y:0.00Z:98.87
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.20E:0.00 Count X: 0.00Y:0.00Z:98.87
+ok
+
+Current Z: 98.87
+Destination Z: 101.2
+timer: 0
+Current position: X:0.00Y:0.00Z:101.20E:0.00 Count X: 0.00Y:0.00Z:101.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.20E:0.00 Count X: 0.00Y:0.00Z:101.20
+ok
+
+Current Z: 101.20
+Destination Z: 101.2
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.30E:0.00 Count X: 0.00Y:0.00Z:99.53
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.30E:0.00 Count X: 0.00Y:0.00Z:99.53
+ok
+
+Current Z: 99.53
+Destination Z: 97.3
+timer: 0
+Current position: X:0.00Y:0.00Z:97.30E:0.00 Count X: 0.00Y:0.00Z:97.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.30E:0.00 Count X: 0.00Y:0.00Z:97.30
+ok
+
+Current Z: 97.30
+Destination Z: 97.3
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.30E:0.00 Count X: 0.00Y:0.00Z:98.97
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.30E:0.00 Count X: 0.00Y:0.00Z:98.97
+ok
+
+Current Z: 98.97
+Destination Z: 101.3
+timer: 0
+Current position: X:0.00Y:0.00Z:101.30E:0.00 Count X: 0.00Y:0.00Z:101.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.30E:0.00 Count X: 0.00Y:0.00Z:101.30
+ok
+
+Current Z: 101.30
+Destination Z: 101.3
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.40E:0.00 Count X: 0.00Y:0.00Z:99.63
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.40E:0.00 Count X: 0.00Y:0.00Z:99.63
+ok
+
+Current Z: 99.63
+Destination Z: 97.4
+timer: 0
+Current position: X:0.00Y:0.00Z:97.40E:0.00 Count X: 0.00Y:0.00Z:97.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.40E:0.00 Count X: 0.00Y:0.00Z:97.40
+ok
+
+Current Z: 97.40
+Destination Z: 97.4
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.40E:0.00 Count X: 0.00Y:0.00Z:99.07
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.40E:0.00 Count X: 0.00Y:0.00Z:99.07
+ok
+
+Current Z: 99.07
+Destination Z: 101.4
+timer: 0
+Current position: X:0.00Y:0.00Z:101.40E:0.00 Count X: 0.00Y:0.00Z:101.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.40E:0.00 Count X: 0.00Y:0.00Z:101.40
+ok
+
+Current Z: 101.40
+Destination Z: 101.4
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.50E:0.00 Count X: 0.00Y:0.00Z:99.73
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.50E:0.00 Count X: 0.00Y:0.00Z:99.73
+ok
+
+Current Z: 99.73
+Destination Z: 97.5
+timer: 0
+Current position: X:0.00Y:0.00Z:97.50E:0.00 Count X: 0.00Y:0.00Z:97.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.50E:0.00 Count X: 0.00Y:0.00Z:97.50
+ok
+
+Current Z: 97.50
+Destination Z: 97.5
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.50E:0.00 Count X: 0.00Y:0.00Z:99.17
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.50E:0.00 Count X: 0.00Y:0.00Z:99.17
+ok
+
+Current Z: 99.17
+Destination Z: 101.5
+timer: 0
+Current position: X:0.00Y:0.00Z:101.50E:0.00 Count X: 0.00Y:0.00Z:101.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.50E:0.00 Count X: 0.00Y:0.00Z:101.50
+ok
+
+Current Z: 101.50
+Destination Z: 101.5
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.60E:0.00 Count X: 0.00Y:0.00Z:99.83
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.60E:0.00 Count X: 0.00Y:0.00Z:99.83
+ok
+
+Current Z: 99.83
+Destination Z: 97.6
+timer: 0
+Current position: X:0.00Y:0.00Z:97.60E:0.00 Count X: 0.00Y:0.00Z:97.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.60E:0.00 Count X: 0.00Y:0.00Z:97.60
+ok
+
+Current Z: 97.60
+Destination Z: 97.6
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.60E:0.00 Count X: 0.00Y:0.00Z:99.27
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.60E:0.00 Count X: 0.00Y:0.00Z:99.27
+ok
+
+Current Z: 99.27
+Destination Z: 101.6
+timer: 0
+Current position: X:0.00Y:0.00Z:101.60E:0.00 Count X: 0.00Y:0.00Z:101.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.60E:0.00 Count X: 0.00Y:0.00Z:101.60
+ok
+
+Current Z: 101.60
+Destination Z: 101.6
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.70E:0.00 Count X: 0.00Y:0.00Z:99.93
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.70E:0.00 Count X: 0.00Y:0.00Z:99.93
+ok
+
+Current Z: 99.93
+Destination Z: 97.7
+timer: 0
+Current position: X:0.00Y:0.00Z:97.70E:0.00 Count X: 0.00Y:0.00Z:97.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.70E:0.00 Count X: 0.00Y:0.00Z:97.70
+ok
+
+Current Z: 97.70
+Destination Z: 97.7
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.70E:0.00 Count X: 0.00Y:0.00Z:99.37
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.70E:0.00 Count X: 0.00Y:0.00Z:99.37
+ok
+
+Current Z: 99.37
+Destination Z: 101.7
+timer: 0
+Current position: X:0.00Y:0.00Z:101.70E:0.00 Count X: 0.00Y:0.00Z:101.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.70E:0.00 Count X: 0.00Y:0.00Z:101.70
+ok
+
+Current Z: 101.70
+Destination Z: 101.7
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.80E:0.00 Count X: 0.00Y:0.00Z:100.03
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.80E:0.00 Count X: 0.00Y:0.00Z:100.03
+ok
+
+Current Z: 100.03
+Destination Z: 97.8
+timer: 0
+Current position: X:0.00Y:0.00Z:97.80E:0.00 Count X: 0.00Y:0.00Z:97.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.80E:0.00 Count X: 0.00Y:0.00Z:97.80
+ok
+
+Current Z: 97.80
+Destination Z: 97.8
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.80E:0.00 Count X: 0.00Y:0.00Z:99.47
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.80E:0.00 Count X: 0.00Y:0.00Z:99.47
+ok
+
+Current Z: 99.47
+Destination Z: 101.8
+timer: 0
+Current position: X:0.00Y:0.00Z:101.80E:0.00 Count X: 0.00Y:0.00Z:101.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.80E:0.00 Count X: 0.00Y:0.00Z:101.80
+ok
+
+Current Z: 101.80
+Destination Z: 101.8
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:97.90E:0.00 Count X: 0.00Y:0.00Z:100.13
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:97.90E:0.00 Count X: 0.00Y:0.00Z:100.13
+ok
+
+Current Z: 100.13
+Destination Z: 97.9
+timer: 0
+Current position: X:0.00Y:0.00Z:97.90E:0.00 Count X: 0.00Y:0.00Z:97.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:97.90E:0.00 Count X: 0.00Y:0.00Z:97.90
+ok
+
+Current Z: 97.90
+Destination Z: 97.9
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:101.90E:0.00 Count X: 0.00Y:0.00Z:99.57
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:101.90E:0.00 Count X: 0.00Y:0.00Z:99.57
+ok
+
+Current Z: 99.57
+Destination Z: 101.9
+timer: 0
+Current position: X:0.00Y:0.00Z:101.90E:0.00 Count X: 0.00Y:0.00Z:101.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:101.90E:0.00 Count X: 0.00Y:0.00Z:101.90
+ok
+
+Current Z: 101.90
+Destination Z: 101.9
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.00E:0.00 Count X: 0.00Y:0.00Z:100.23
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.00E:0.00 Count X: 0.00Y:0.00Z:100.23
+ok
+
+Current Z: 100.23
+Destination Z: 98.0
+timer: 0
+Current position: X:0.00Y:0.00Z:98.00E:0.00 Count X: 0.00Y:0.00Z:98.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.00E:0.00 Count X: 0.00Y:0.00Z:98.00
+ok
+
+Current Z: 98.00
+Destination Z: 98.0
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.00E:0.00 Count X: 0.00Y:0.00Z:99.67
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.00E:0.00 Count X: 0.00Y:0.00Z:99.67
+ok
+
+Current Z: 99.67
+Destination Z: 102.0
+timer: 0
+Current position: X:0.00Y:0.00Z:102.00E:0.00 Count X: 0.00Y:0.00Z:102.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.00E:0.00 Count X: 0.00Y:0.00Z:102.00
+ok
+
+Current Z: 102.00
+Destination Z: 102.0
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.10E:0.00 Count X: 0.00Y:0.00Z:100.33
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.10E:0.00 Count X: 0.00Y:0.00Z:100.33
+ok
+
+Current Z: 100.33
+Destination Z: 98.1
+timer: 0
+Current position: X:0.00Y:0.00Z:98.10E:0.00 Count X: 0.00Y:0.00Z:98.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.10E:0.00 Count X: 0.00Y:0.00Z:98.10
+ok
+
+Current Z: 98.10
+Destination Z: 98.1
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.10E:0.00 Count X: 0.00Y:0.00Z:99.77
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.10E:0.00 Count X: 0.00Y:0.00Z:99.77
+ok
+
+Current Z: 99.77
+Destination Z: 102.1
+timer: 0
+Current position: X:0.00Y:0.00Z:102.10E:0.00 Count X: 0.00Y:0.00Z:102.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.10E:0.00 Count X: 0.00Y:0.00Z:102.10
+ok
+
+Current Z: 102.10
+Destination Z: 102.1
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.20E:0.00 Count X: 0.00Y:0.00Z:100.43
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.20E:0.00 Count X: 0.00Y:0.00Z:100.43
+ok
+
+Current Z: 100.43
+Destination Z: 98.2
+timer: 0
+Current position: X:0.00Y:0.00Z:98.20E:0.00 Count X: 0.00Y:0.00Z:98.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.20E:0.00 Count X: 0.00Y:0.00Z:98.20
+ok
+
+Current Z: 98.20
+Destination Z: 98.2
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.20E:0.00 Count X: 0.00Y:0.00Z:99.87
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.20E:0.00 Count X: 0.00Y:0.00Z:99.87
+ok
+
+Current Z: 99.87
+Destination Z: 102.2
+timer: 0
+Current position: X:0.00Y:0.00Z:102.20E:0.00 Count X: 0.00Y:0.00Z:102.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.20E:0.00 Count X: 0.00Y:0.00Z:102.20
+ok
+
+Current Z: 102.20
+Destination Z: 102.2
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.30E:0.00 Count X: 0.00Y:0.00Z:100.53
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.30E:0.00 Count X: 0.00Y:0.00Z:100.53
+ok
+
+Current Z: 100.53
+Destination Z: 98.3
+timer: 0
+Current position: X:0.00Y:0.00Z:98.30E:0.00 Count X: 0.00Y:0.00Z:98.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.30E:0.00 Count X: 0.00Y:0.00Z:98.30
+ok
+
+Current Z: 98.30
+Destination Z: 98.3
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.30E:0.00 Count X: 0.00Y:0.00Z:99.97
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.30E:0.00 Count X: 0.00Y:0.00Z:99.97
+ok
+
+Current Z: 99.97
+Destination Z: 102.3
+timer: 0
+Current position: X:0.00Y:0.00Z:102.30E:0.00 Count X: 0.00Y:0.00Z:102.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.30E:0.00 Count X: 0.00Y:0.00Z:102.30
+ok
+
+Current Z: 102.30
+Destination Z: 102.3
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.40E:0.00 Count X: 0.00Y:0.00Z:100.63
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.40E:0.00 Count X: 0.00Y:0.00Z:100.63
+ok
+
+Current Z: 100.63
+Destination Z: 98.4
+timer: 0
+Current position: X:0.00Y:0.00Z:98.40E:0.00 Count X: 0.00Y:0.00Z:98.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.40E:0.00 Count X: 0.00Y:0.00Z:98.40
+ok
+
+Current Z: 98.40
+Destination Z: 98.4
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.40E:0.00 Count X: 0.00Y:0.00Z:100.07
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.40E:0.00 Count X: 0.00Y:0.00Z:100.07
+ok
+
+Current Z: 100.07
+Destination Z: 102.4
+timer: 0
+Current position: X:0.00Y:0.00Z:102.40E:0.00 Count X: 0.00Y:0.00Z:102.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.40E:0.00 Count X: 0.00Y:0.00Z:102.40
+ok
+
+Current Z: 102.40
+Destination Z: 102.4
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.50E:0.00 Count X: 0.00Y:0.00Z:100.73
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.50E:0.00 Count X: 0.00Y:0.00Z:100.73
+ok
+
+Current Z: 100.73
+Destination Z: 98.5
+timer: 0
+Current position: X:0.00Y:0.00Z:98.50E:0.00 Count X: 0.00Y:0.00Z:98.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.50E:0.00 Count X: 0.00Y:0.00Z:98.50
+ok
+
+Current Z: 98.50
+Destination Z: 98.5
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.50E:0.00 Count X: 0.00Y:0.00Z:100.17
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.50E:0.00 Count X: 0.00Y:0.00Z:100.17
+ok
+
+Current Z: 100.17
+Destination Z: 102.5
+timer: 0
+Current position: X:0.00Y:0.00Z:102.50E:0.00 Count X: 0.00Y:0.00Z:102.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.50E:0.00 Count X: 0.00Y:0.00Z:102.50
+ok
+
+Current Z: 102.50
+Destination Z: 102.5
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.60E:0.00 Count X: 0.00Y:0.00Z:100.83
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.60E:0.00 Count X: 0.00Y:0.00Z:100.83
+ok
+
+Current Z: 100.83
+Destination Z: 98.6
+timer: 0
+Current position: X:0.00Y:0.00Z:98.60E:0.00 Count X: 0.00Y:0.00Z:98.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.60E:0.00 Count X: 0.00Y:0.00Z:98.60
+ok
+
+Current Z: 98.60
+Destination Z: 98.6
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.60E:0.00 Count X: 0.00Y:0.00Z:100.27
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.60E:0.00 Count X: 0.00Y:0.00Z:100.27
+ok
+
+Current Z: 100.27
+Destination Z: 102.6
+timer: 0
+Current position: X:0.00Y:0.00Z:102.60E:0.00 Count X: 0.00Y:0.00Z:102.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.60E:0.00 Count X: 0.00Y:0.00Z:102.60
+ok
+
+Current Z: 102.60
+Destination Z: 102.6
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.70E:0.00 Count X: 0.00Y:0.00Z:100.93
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.70E:0.00 Count X: 0.00Y:0.00Z:100.93
+ok
+
+Current Z: 100.93
+Destination Z: 98.7
+timer: 0
+Current position: X:0.00Y:0.00Z:98.70E:0.00 Count X: 0.00Y:0.00Z:98.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.70E:0.00 Count X: 0.00Y:0.00Z:98.70
+ok
+
+Current Z: 98.70
+Destination Z: 98.7
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.70E:0.00 Count X: 0.00Y:0.00Z:100.37
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.70E:0.00 Count X: 0.00Y:0.00Z:100.37
+ok
+
+Current Z: 100.37
+Destination Z: 102.7
+timer: 0
+Current position: X:0.00Y:0.00Z:102.70E:0.00 Count X: 0.00Y:0.00Z:102.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.70E:0.00 Count X: 0.00Y:0.00Z:102.70
+ok
+
+Current Z: 102.70
+Destination Z: 102.7
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.80E:0.00 Count X: 0.00Y:0.00Z:101.03
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.80E:0.00 Count X: 0.00Y:0.00Z:101.03
+ok
+
+Current Z: 101.03
+Destination Z: 98.8
+timer: 0
+Current position: X:0.00Y:0.00Z:98.80E:0.00 Count X: 0.00Y:0.00Z:98.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.80E:0.00 Count X: 0.00Y:0.00Z:98.80
+ok
+
+Current Z: 98.80
+Destination Z: 98.8
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.80E:0.00 Count X: 0.00Y:0.00Z:100.47
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.80E:0.00 Count X: 0.00Y:0.00Z:100.47
+ok
+
+Current Z: 100.47
+Destination Z: 102.8
+timer: 0
+Current position: X:0.00Y:0.00Z:102.80E:0.00 Count X: 0.00Y:0.00Z:102.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.80E:0.00 Count X: 0.00Y:0.00Z:102.80
+ok
+
+Current Z: 102.80
+Destination Z: 102.8
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:98.90E:0.00 Count X: 0.00Y:0.00Z:101.13
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:98.90E:0.00 Count X: 0.00Y:0.00Z:101.13
+ok
+
+Current Z: 101.13
+Destination Z: 98.9
+timer: 0
+Current position: X:0.00Y:0.00Z:98.90E:0.00 Count X: 0.00Y:0.00Z:98.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:98.90E:0.00 Count X: 0.00Y:0.00Z:98.90
+ok
+
+Current Z: 98.90
+Destination Z: 98.9
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:102.90E:0.00 Count X: 0.00Y:0.00Z:100.57
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:102.90E:0.00 Count X: 0.00Y:0.00Z:100.57
+ok
+
+Current Z: 100.57
+Destination Z: 102.9
+timer: 0
+Current position: X:0.00Y:0.00Z:102.90E:0.00 Count X: 0.00Y:0.00Z:102.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:102.90E:0.00 Count X: 0.00Y:0.00Z:102.90
+ok
+
+Current Z: 102.90
+Destination Z: 102.9
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:101.23
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:101.23
+ok
+
+Current Z: 101.23
+Destination Z: 99.0
+timer: 0
+Current position: X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:99.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.00E:0.00 Count X: 0.00Y:0.00Z:99.00
+ok
+
+Current Z: 99.00
+Destination Z: 99.0
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.00E:0.00 Count X: 0.00Y:0.00Z:100.67
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.00E:0.00 Count X: 0.00Y:0.00Z:100.67
+ok
+
+Current Z: 100.67
+Destination Z: 103.0
+timer: 0
+Current position: X:0.00Y:0.00Z:103.00E:0.00 Count X: 0.00Y:0.00Z:103.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.00E:0.00 Count X: 0.00Y:0.00Z:103.00
+ok
+
+Current Z: 103.00
+Destination Z: 103.0
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:101.33
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:101.33
+ok
+
+Current Z: 101.33
+Destination Z: 99.1
+timer: 0
+Current position: X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:99.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.10E:0.00 Count X: 0.00Y:0.00Z:99.10
+ok
+
+Current Z: 99.10
+Destination Z: 99.1
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.10E:0.00 Count X: 0.00Y:0.00Z:100.77
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.10E:0.00 Count X: 0.00Y:0.00Z:100.77
+ok
+
+Current Z: 100.77
+Destination Z: 103.1
+timer: 0
+Current position: X:0.00Y:0.00Z:103.10E:0.00 Count X: 0.00Y:0.00Z:103.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.10E:0.00 Count X: 0.00Y:0.00Z:103.10
+ok
+
+Current Z: 103.10
+Destination Z: 103.1
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:101.43
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:101.43
+ok
+
+Current Z: 101.43
+Destination Z: 99.2
+timer: 0
+Current position: X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:99.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.20E:0.00 Count X: 0.00Y:0.00Z:99.20
+ok
+
+Current Z: 99.20
+Destination Z: 99.2
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.20E:0.00 Count X: 0.00Y:0.00Z:100.87
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.20E:0.00 Count X: 0.00Y:0.00Z:100.87
+ok
+
+Current Z: 100.87
+Destination Z: 103.2
+timer: 0
+Current position: X:0.00Y:0.00Z:103.20E:0.00 Count X: 0.00Y:0.00Z:103.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.20E:0.00 Count X: 0.00Y:0.00Z:103.20
+ok
+
+Current Z: 103.20
+Destination Z: 103.2
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:101.53
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:101.53
+ok
+
+Current Z: 101.53
+Destination Z: 99.3
+timer: 0
+Current position: X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:99.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.30E:0.00 Count X: 0.00Y:0.00Z:99.30
+ok
+
+Current Z: 99.30
+Destination Z: 99.3
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.30E:0.00 Count X: 0.00Y:0.00Z:100.97
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.30E:0.00 Count X: 0.00Y:0.00Z:100.97
+ok
+
+Current Z: 100.97
+Destination Z: 103.3
+timer: 0
+Current position: X:0.00Y:0.00Z:103.30E:0.00 Count X: 0.00Y:0.00Z:103.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.30E:0.00 Count X: 0.00Y:0.00Z:103.30
+ok
+
+Current Z: 103.30
+Destination Z: 103.3
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:101.63
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:101.63
+ok
+
+Current Z: 101.63
+Destination Z: 99.4
+timer: 0
+Current position: X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:99.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.40E:0.00 Count X: 0.00Y:0.00Z:99.40
+ok
+
+Current Z: 99.40
+Destination Z: 99.4
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.40E:0.00 Count X: 0.00Y:0.00Z:101.07
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.40E:0.00 Count X: 0.00Y:0.00Z:101.07
+ok
+
+Current Z: 101.07
+Destination Z: 103.4
+timer: 0
+Current position: X:0.00Y:0.00Z:103.40E:0.00 Count X: 0.00Y:0.00Z:103.40
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.40E:0.00 Count X: 0.00Y:0.00Z:103.40
+ok
+
+Current Z: 103.40
+Destination Z: 103.4
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:101.73
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:101.73
+ok
+
+Current Z: 101.73
+Destination Z: 99.5
+timer: 0
+Current position: X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:99.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.50E:0.00 Count X: 0.00Y:0.00Z:99.50
+ok
+
+Current Z: 99.50
+Destination Z: 99.5
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.50E:0.00 Count X: 0.00Y:0.00Z:101.17
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.50E:0.00 Count X: 0.00Y:0.00Z:101.17
+ok
+
+Current Z: 101.17
+Destination Z: 103.5
+timer: 0
+Current position: X:0.00Y:0.00Z:103.50E:0.00 Count X: 0.00Y:0.00Z:103.50
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.50E:0.00 Count X: 0.00Y:0.00Z:103.50
+ok
+
+Current Z: 103.50
+Destination Z: 103.5
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:101.83
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:101.83
+ok
+
+Current Z: 101.83
+Destination Z: 99.6
+timer: 0
+Current position: X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:99.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.60E:0.00 Count X: 0.00Y:0.00Z:99.60
+ok
+
+Current Z: 99.60
+Destination Z: 99.6
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.60E:0.00 Count X: 0.00Y:0.00Z:101.27
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.60E:0.00 Count X: 0.00Y:0.00Z:101.27
+ok
+
+Current Z: 101.27
+Destination Z: 103.6
+timer: 0
+Current position: X:0.00Y:0.00Z:103.60E:0.00 Count X: 0.00Y:0.00Z:103.60
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.60E:0.00 Count X: 0.00Y:0.00Z:103.60
+ok
+
+Current Z: 103.60
+Destination Z: 103.6
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:101.93
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:101.93
+ok
+
+Current Z: 101.93
+Destination Z: 99.7
+timer: 0
+Current position: X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:99.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.70E:0.00 Count X: 0.00Y:0.00Z:99.70
+ok
+
+Current Z: 99.70
+Destination Z: 99.7
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.70E:0.00 Count X: 0.00Y:0.00Z:101.37
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.70E:0.00 Count X: 0.00Y:0.00Z:101.37
+ok
+
+Current Z: 101.37
+Destination Z: 103.7
+timer: 0
+Current position: X:0.00Y:0.00Z:103.70E:0.00 Count X: 0.00Y:0.00Z:103.70
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.70E:0.00 Count X: 0.00Y:0.00Z:103.70
+ok
+
+Current Z: 103.70
+Destination Z: 103.7
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:102.03
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:102.03
+ok
+
+Current Z: 102.03
+Destination Z: 99.8
+timer: 0
+Current position: X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:99.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.80E:0.00 Count X: 0.00Y:0.00Z:99.80
+ok
+
+Current Z: 99.80
+Destination Z: 99.8
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.80E:0.00 Count X: 0.00Y:0.00Z:101.47
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.80E:0.00 Count X: 0.00Y:0.00Z:101.47
+ok
+
+Current Z: 101.47
+Destination Z: 103.8
+timer: 0
+Current position: X:0.00Y:0.00Z:103.80E:0.00 Count X: 0.00Y:0.00Z:103.80
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.80E:0.00 Count X: 0.00Y:0.00Z:103.80
+ok
+
+Current Z: 103.80
+Destination Z: 103.8
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:102.13
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:102.13
+ok
+
+Current Z: 102.13
+Destination Z: 99.9
+timer: 0
+Current position: X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:99.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:99.90E:0.00 Count X: 0.00Y:0.00Z:99.90
+ok
+
+Current Z: 99.90
+Destination Z: 99.9
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:103.90E:0.00 Count X: 0.00Y:0.00Z:101.57
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:103.90E:0.00 Count X: 0.00Y:0.00Z:101.57
+ok
+
+Current Z: 101.57
+Destination Z: 103.9
+timer: 0
+Current position: X:0.00Y:0.00Z:103.90E:0.00 Count X: 0.00Y:0.00Z:103.90
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:103.90E:0.00 Count X: 0.00Y:0.00Z:103.90
+ok
+
+Current Z: 103.90
+Destination Z: 103.9
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:102.23
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:102.23
+ok
+
+Current Z: 102.23
+Destination Z: 100.0
+timer: 0
+Current position: X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:100.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.00E:0.00 Count X: 0.00Y:0.00Z:100.00
+ok
+
+Current Z: 100.00
+Destination Z: 100.0
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:104.00E:0.00 Count X: 0.00Y:0.00Z:101.67
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:104.00E:0.00 Count X: 0.00Y:0.00Z:101.67
+ok
+
+Current Z: 101.67
+Destination Z: 104.0
+timer: 0
+Current position: X:0.00Y:0.00Z:104.00E:0.00 Count X: 0.00Y:0.00Z:104.00
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:104.00E:0.00 Count X: 0.00Y:0.00Z:104.00
+ok
+
+Current Z: 104.00
+Destination Z: 104.0
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:102.33
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:102.33
+ok
+
+Current Z: 102.33
+Destination Z: 100.1
+timer: 0
+Current position: X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:100.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.10E:0.00 Count X: 0.00Y:0.00Z:100.10
+ok
+
+Current Z: 100.10
+Destination Z: 100.1
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:104.10E:0.00 Count X: 0.00Y:0.00Z:101.77
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:104.10E:0.00 Count X: 0.00Y:0.00Z:101.77
+ok
+
+Current Z: 101.77
+Destination Z: 104.1
+timer: 0
+Current position: X:0.00Y:0.00Z:104.10E:0.00 Count X: 0.00Y:0.00Z:104.10
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:104.10E:0.00 Count X: 0.00Y:0.00Z:104.10
+ok
+
+Current Z: 104.10
+Destination Z: 104.1
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.20E:0.00 Count X: 0.00Y:0.00Z:102.43
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.20E:0.00 Count X: 0.00Y:0.00Z:102.43
+ok
+
+Current Z: 102.43
+Destination Z: 100.2
+timer: 0
+Current position: X:0.00Y:0.00Z:100.20E:0.00 Count X: 0.00Y:0.00Z:100.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.20E:0.00 Count X: 0.00Y:0.00Z:100.20
+ok
+
+Current Z: 100.20
+Destination Z: 100.2
+G1 Z4.0 F100.0
+waitOnMove Line: G1 Z4.0 F100.0
+Is a move
+G1 Z4.0 F100.0
+
+Z coordinate: 4.0
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:104.20E:0.00 Count X: 0.00Y:0.00Z:101.87
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:104.20E:0.00 Count X: 0.00Y:0.00Z:101.87
+ok
+
+Current Z: 101.87
+Destination Z: 104.2
+timer: 0
+Current position: X:0.00Y:0.00Z:104.20E:0.00 Count X: 0.00Y:0.00Z:104.20
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:104.20E:0.00 Count X: 0.00Y:0.00Z:104.20
+ok
+
+Current Z: 104.20
+Destination Z: 104.2
+G1 Z-3.9 F100.0
+waitOnMove Line: G1 Z-3.9 F100.0
+Is a move
+G1 Z-3.9 F100.0
+
+Z coordinate: -3.9
+timer: 0
+Current position: ok
+X:0.00Y:0.00Z:100.30E:0.00 Count X: 0.00Y:0.00Z:102.53
+ok
+
+timer: 0
+timer: 1
+ok
+X:0.00Y:0.00Z:100.30E:0.00 Count X: 0.00Y:0.00Z:102.53
+ok
+
+Current Z: 102.53
+Destination Z: 100.3
+timer: 0
+Current position: X:0.00Y:0.00Z:100.30E:0.00 Count X: 0.00Y:0.00Z:100.30
+ok
+
+timer: 0
+timer: 1
+X:0.00Y:0.00Z:100.30E:0.00 Count X: 0.00Y:0.00Z:100.30
+ok
+
+Current Z: 100.30
+Destination Z: 100.3

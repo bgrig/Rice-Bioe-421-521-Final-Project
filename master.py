@@ -20,6 +20,15 @@ camera.brightness = 70
 camera.shutter_speed = 10000 #in microseconds
 camera.zoom  = (0.3, 0.3, 0.5, 0.5) #cropping ROI
 
+#Grab email information
+emailPath = "../../DLPemail.txt"
+f = open(emailPath, "r")
+lines = f.readlines()
+gmail_user = lines[0].strip()
+gmail_pwd = lines[1].strip()
+f.close()
+
+
 #Output stdout to log file
 sys.stdout = open("log.txt", "a")
 
@@ -85,8 +94,7 @@ def emailImage():
     camera.capture(output_name)
 
     # Acct from which email will be sent
-    gmail_user = "millerlabdlp@gmail.com"
-    gmail_pwd = "millerlab7890"
+
 
     # Defining components of email
     def mail(to, subject, text, attach):
@@ -114,7 +122,7 @@ def emailImage():
         mailServer.close()
 
     #Send message with text
-    mail("bgrigoryan@gmail.com",
+    mail(gmail_user,
         "Print Status - DLP5",
         "This is a email sent with python",
         output_name)
@@ -376,7 +384,7 @@ def main():
     images = loadSlideshow("Testing")
 
     # Load the gcode data from the creation workshop file
-    gcodeDict = loadGcode("0.3-0.5mm_holes_horizontal_short.gcode", ".")
+    gcodeDict = loadGcode("diagrid_s.gcode", ".")
 
     # Iterate through the slice numbers and execute gcode movements/slideshow image displays with correct timing
     for slice in range(0,len(gcodeDict)):
