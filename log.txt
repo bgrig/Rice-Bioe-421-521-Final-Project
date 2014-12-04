@@ -538,3 +538,382 @@ Diff: -105.0
 X:0.00Y:0.00Z:6.15E:0.00 Count X: 0.00Y:0.00Z:6.15
 ok
 
+##################
+Log: 2014/12/04 01:09:55
+/dev/ttyACM0
+baudrate: 115200
+
+ok T:499.5 /0.0 B:0.0 /0.0 T0:499.5 /0.0 @:0 B@:0
+
+G28 Z
+waitOnMove Line: G28 Z
+Is a move
+G28 Z
+Z coordinate: 105.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+Current Z: 105.00
+Diff: 0.0
+G90
+waitOnMove Line: G90
+Not a move
+G0 Z6.15
+waitOnMove Line: G0 Z6.15
+Is a move
+G0 Z6.15
+Z coordinate: 111.15
+ok
+ok
+X:0.00Y:0.00Z:6.15E:0.00 Counok
+
+
+ok
+ok
+X:0.00Y:0.00Z:6.15E:0.00 Counok
+
+##################
+Log: 2014/12/04 01:13:25
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Nov 30 2014 21:12:07 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Nov 30 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+
+G28 Z
+waitOnMove Line: G28 Z
+Is a move
+G28 Z
+Z coordinate: 105.0
+
+
+
+
+
+
+
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+Current Z: 105.00
+Diff: 0.0
+G90
+waitOnMove Line: G90
+Not a move
+G0 Z90
+waitOnMove Line: G0 Z90
+Is a move
+G0 Z90
+Z coordinate: 195.0
+ok
+ok
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:104.99
+ok
+
+
+ok
+ok
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:104.99
+ok
+
+Current Z: 104.99
+Diff: -90.01
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:95.01
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:95.01
+ok
+
+Current Z: 95.01
+Diff: -99.99
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+##################
+Log: 2014/12/04 01:14:15
+/dev/ttyACM0
+baudrate: 115200
+
+start
+echo: External Reset
+Marlin 1.0.0
+echo: Last Updated: Nov 30 2014 21:12:07 | Author: (jmil, Open3DLP with BariCUDA control)
+Compiled: Nov 30 2014
+echo: Free Memory: 5170  PlannerBufferBytes: 1360
+echo:Hardcoded Default Settings Loaded
+
+G28 Z
+waitOnMove Line: G28 Z
+Is a move
+G28 Z
+Z coordinate: 105.0
+
+
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+
+ok
+X:0.00Y:0.00Z:105.00E:0.00 Count X: 0.00Y:0.00Z:105.00
+ok
+
+Current Z: 105.00
+Diff: 0.0
+G90
+waitOnMove Line: G90
+Not a move
+G0 Z90
+waitOnMove Line: G0 Z90
+Is a move
+G0 Z90
+Z coordinate: 195.0
+ok
+ok
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:104.99
+ok
+
+
+ok
+ok
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:104.99
+ok
+
+Current Z: 104.99
+Diff: -90.01
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:95.01
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:95.01
+ok
+
+Current Z: 95.01
+Diff: -99.99
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+
+Current Z: 90.00
+Diff: -105.0
+X:0.00Y:0.00Z:90.00E:0.00 Count X: 0.00Y:0.00Z:90.00
+ok
+

@@ -12,7 +12,7 @@ class gcode():
 		self.zCount = 0
 		self.zCurrent = 0
 		self.zHome = 105
-		self.zBottom = zBottom
+		self.zAfterHome = zBottom - self.zHome
 		self.zRE = re.compile(" Z(-?[0-9]+[.]?[0-9]*)")
 		self.M114RE = re.compile("Count X: ([0-9]+[.]?[0-9]*)Y:([0-9]+[.]?[0-9]*)Z:([0-9]+[.]?[0-9]*)")
 		self.gmoveRE = re.compile("^G[0-1]{1}|28")
@@ -29,9 +29,8 @@ class gcode():
 
 	def _prepare(self):
 		self.gcodeLine("G28 Z\n")
-		self.gcodeLine("G90\n")
-		self.gcodeLine("G0 Z{0}\n".format(str(self.zBottom)))
 		self.gcodeLine("G91\n")
+		self.gcodeLine("G0 Z{0}\n".format(str(self.zAfterHome)))
 
 	def gcodeLine(self, line):
 		self.comm.writeLine(line)

@@ -13,7 +13,7 @@ import gcoder
 
 
 #Output stdout to log file
-sys.stdout = open("log.txt", "a")
+#sys.stdout = open("log.txt", "a")
 
 #Port Definitions
 port = "/dev/ttyACM0"
